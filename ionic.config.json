@@ -1,0 +1,7 @@
+{
+  "name": "vertex-globein-meded",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

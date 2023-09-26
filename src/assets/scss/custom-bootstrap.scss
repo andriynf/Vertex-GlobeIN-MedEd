@@ -1,0 +1,47 @@
+$body-bg: white;
+
+//$font-family-base: 'Aleo';
+$font-family-base: Arial, Helvetica, sans-serif;
+
+$primary: #51267d;
+$secondary: #00a2dd;
+
+$input-btn-focus-color: rgba($secondary, .25);
+
+$modal-content-border-color: $primary;
+$modal-content-border-radius: 0;
+$modal-content-border-width: 0;
+
+$btn-padding-y: 10px;
+$btn-padding-x: 20px;
+$btn-font-family: Arial, Helvetica, sans-serif;
+$btn-font-size: 18px;
+
+$border-radius: 0; // .25rem;
+$border-radius-lg: .5rem; // .3rem;
+$border-radius-sm: 0; // .2rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 1434px,
+  md: 1436px,
+  lg: 1438px,
+  xl: 1440px
+);
+
+$modal-sm: 970px;
+$modal-md: 970px;
+$modal-lg: 970px;
+$modal-xl: 1440px;
+
+// disable outline shadow
+// $input-btn-focus-box-shadow: none;
+// $input-btn-focus-width: 0;
+// $btn-focus-box-shadow: none;

@@ -1,0 +1,62 @@
+<template>
+  <div class="attract page-view" @click="welcomeClick()">
+
+		<video 
+			autoplay preload="metadata" loop muted
+			disablePictureInPicture 
+			controls123
+			controlsList="nofullscreen1 nodownload noremoteplayback noplaybackrate"
+			src12="'https://bhoward3.com/electron/GlobeIN/media/176201365_vertex_heme_eha_animation_v2 (2160p).mp4'"
+			:src="'/media/176201365_vertex_heme_globein_animation_v2b_v2 (2160p).mp4'"
+			>
+		</video>
+
+  </div>
+</template>
+
+<script>
+import { mapState } from "vuex";
+
+export default {
+  components: {
+  },
+  data() {
+    return {
+    };
+  },
+  computed: {
+    ...mapState([
+      "config",
+      "is_electron",
+      "ipc_renderer",
+      "main_data"
+    ]),
+  },
+  mounted() {},
+	beforeDestroy(){},
+  methods: {
+		welcomeClick() {
+			this.$store.commit("set_userid", "user-" + new Date().getTime());
+
+			this.$store.dispatch("saveActivity", {
+				ec: 'Attract page',
+				ea: 'click',
+				el: 'Touch to learn more',
+			});
+
+			
+			this.$router.push({ name: 'homepage' });
+		},
+
+
+  }
+};
+</script>
+
+<style lang="scss">
+@import '../assets/scss/_variables';
+
+// .attract {
+	// display: none;
+// }
+</style>

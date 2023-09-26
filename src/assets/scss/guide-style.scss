@@ -1,0 +1,20 @@
+@import './custom-bootstrap.scss';
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+
+// colors
+:export {
+	color: {
+		primary: $primary;
+		secondary: $secondary;
+		success: $success;
+		info: $info;
+		warning: $warning;
+		danger: $danger;
+		light: $light;
+		dark: $dark;
+	}
+}
+// :export {
+// 	secondary: $secondary;
+// }
