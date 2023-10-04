@@ -149,19 +149,25 @@ export default {
           }
         }
 
-				scale_valueX = screen_width / app_width;
-				scale_valueY = screen_height / app_height;
+				scale_valueY = scale_valueX;
+				// scale_valueX = screen_width / app_width;
+				// scale_valueY = screen_height / app_height;
 
         // console.log(screen_width, screen_height);
         // console.log(app_width, app_height);
         // this.$store.commit("set_scaleValue", scale_valueX);
+				let leftPos = Math.floor((screen_width - app_width * scale_valueX) / 2);
+				let topPos = Math.floor((screen_height - app_height*scale_valueY) / 2);
 
         this.scaleStyle = {
           transform: `scale(${scale_valueX}, ${scale_valueY})`,
           // left: Math.floor((screen_width - app_width) / 2) + "px",
           // top: Math.floor((screen_height - app_height) / 2) + "px",
+					left: `${leftPos}px`,
+					top: `${topPos}px`, 
           width: `${app_width}px`,
-          height: `${app_height}px`
+          height: `${app_height}px`,
+					position: 'relative',
         };
 
         this.resetNoActivity();

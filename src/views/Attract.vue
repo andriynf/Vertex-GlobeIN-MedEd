@@ -2,11 +2,10 @@
   <div class="attract page-view" @click="welcomeClick()">
 
 		<video 
-			autoplay preload="metadata" loop muted
+			autoplay preload1="metadata" loop muted
 			disablePictureInPicture 
 			controls123
 			controlsList="nofullscreen1 nodownload noremoteplayback noplaybackrate"
-			src12="'https://bhoward3.com/electron/GlobeIN/media/176201365_vertex_heme_eha_animation_v2 (2160p).mp4'"
 			:src="'/media/176201365_vertex_heme_globein_animation_v2b_v2 (2160p).mp4'"
 			>
 		</video>
@@ -15,6 +14,7 @@
 </template>
 
 <script>
+//src="'https://bhoward3.com/electron/GlobeIN/media/176201365_vertex_heme_eha_animation_v2 (2160p).mp4'"
 import { mapState } from "vuex";
 
 export default {
