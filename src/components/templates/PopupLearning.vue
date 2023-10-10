@@ -152,8 +152,8 @@ export default {
 		height: 1070px;
 		display: flex;
 		justify-content: space-between;
-		font-size: 40px;
-		line-height: 54px;
+		font-size: 48px;
+		line-height: 60px;
 		color: #fff;
 		text-align: center;
 

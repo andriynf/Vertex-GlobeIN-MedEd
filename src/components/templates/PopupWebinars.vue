@@ -175,7 +175,7 @@ export default {
 
 		.panel_title {
 			font-family: "Arial";
-			font-size: 38px;
+			font-size: 41px;
 			font-weight: bold;
 			// line-height: 40px;
 			color: #fff;
@@ -208,7 +208,7 @@ export default {
 		.info-red-note {
 			animation-name: unset;
 			margin-top: 70px;
-			font-size: 31px;
+			font-size: 33px;
 			line-height: 40px;
 			fill: #fff;
 			.info-content {

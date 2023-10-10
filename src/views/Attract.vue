@@ -2,7 +2,7 @@
   <div class="attract page-view" @click="welcomeClick()">
 
 		<video 
-			autoplay preload1="metadata" loop muted
+			autoplay preload1="metadata" loop muted playsinline
 			disablePictureInPicture 
 			controls123
 			controlsList="nofullscreen1 nodownload noremoteplayback noplaybackrate"

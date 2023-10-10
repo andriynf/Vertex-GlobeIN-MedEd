@@ -49,7 +49,7 @@
 	.info-content {
 		background-color: rgba(255, 255, 255, 0.9);
 		font-family: 'SourceSansPro-Semibold';
-		font-size: 31px;
+		font-size: 36px;
 		padding: 20px 50px;
 		border-radius: 25px;
 		position: relative;

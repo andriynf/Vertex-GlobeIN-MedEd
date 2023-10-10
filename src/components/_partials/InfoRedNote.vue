@@ -28,7 +28,7 @@
 	display: flex;
 	justify-content: center;
 	font-family: 'SourceSansPro-Semibold';
-	font-size: 50px;
+	font-size: 55px;
 	fill: #d06578;
 	color: #d06578;
 	

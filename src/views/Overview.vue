@@ -137,7 +137,7 @@ export default {
 			text-align: center;
 		}
 		.bodytext {
-			font-size: 43px;
+			font-size: 48px;
 			line-height: 54px;
 			color: #fff;
 			text-align: center;

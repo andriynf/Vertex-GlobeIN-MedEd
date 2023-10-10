@@ -107,7 +107,7 @@
 			height: 125px;
 			width: 256px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 41px;
+			font-size: 45px;
 			line-height: 1;
 			margin: 55px 25px 0;
 			> div {

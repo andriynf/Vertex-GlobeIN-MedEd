@@ -57,7 +57,7 @@
 				<div class="title animate__animated animate__fadeInRight" v-html="main_data.podvideos[activePlayerItemID].title"></div>
 				<div class="videocontainer">
 					<video 
-						autoplay preload="metadata"
+						autoplay preload="metadata" playsinline
 						disablePictureInPicture 
 						controls
 	      		controlsList="nofullscreen1 nodownload noremoteplayback noplaybackrate"
@@ -278,7 +278,7 @@ export default {
 		// }
 		.title {
 			font-weight: bold;
-			font-size: 50px;
+			font-size: 52px;
 			line-height: 60px;
 			color: #fff;
 			// text-align: center;
@@ -294,6 +294,7 @@ export default {
 				line-height: 1.25;
 				background-color: rgba(81, 38, 125, 0.9);
 				text-align: right;
+				letter-spacing: -1px;
 			}
 		}
 		
@@ -328,7 +329,7 @@ export default {
 				
 				.label {
 					font-family: 'SourceSansPro-Semibold';
-					font-size: 47px;
+					font-size: 51px;
 					line-height: 61px;
 					// letter-spacing: -2px;
 					color: #d06578;
@@ -371,7 +372,7 @@ export default {
 				border: 1px solid #000;
 			}
 			.infotext {
-				font-size: 38px;
+				font-size: 42px;
 				line-height: 63px;
 				margin-top: 50px;
 			}
@@ -386,14 +387,14 @@ export default {
 				position: absolute;
 				bottom: 110px;
 				left: 1050px;
-				width: 962px;
+				width: 980px;
 				height: 153px;
 				border: 4px solid #c6c6c6;
 				border-radius: 25px;
 				display: flex;
 				align-items: center;
 				font-family: 'SourceSansPro-Semibold';
-				font-size: 34px;
+				font-size: 36px;
 				color: #9d9d9c;
 			}
 		}

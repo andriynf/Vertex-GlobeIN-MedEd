@@ -52,7 +52,7 @@
 	height: 120px;
 	// width: 256px;
 	font-family: 'SourceSansPro-Semibold';
-	font-size: 41px;
+	font-size: 46px;
 	line-height: 1;
 	display: flex;
   align-items: center;
