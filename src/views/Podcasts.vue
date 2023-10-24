@@ -5,10 +5,10 @@
 
 				<div class="pageheader">
 					<div class="iconstick">
-						<img src="/img/bigicon_cast.png" width="353">
+						<img src="/img/bigicon_cast.png" width="198">
 						<div>VIDEOS <br>& PODCASTS</div>
 					</div>
-					<img class="title" src="/img/globein_teractive.png" width="1278">
+					<img class="title" src="/img/globein_teractive.png" width="1008">
 				</div>
 
 				<info-red-note class="topAlert">Click below to watch the teaser videos, and scan the QR code to access the full videos on the GlobeIN website</info-red-note>
@@ -95,60 +95,62 @@ export default {
 @import '../assets/scss/_variables';
 
 .podcasts {
-  // background-image: url('/img/temp6.jpg');
+  // background-image: url('/img/p1_Page_07.jpg');
+	// background-size: 100% 100%;
   // .content-box {
 	// 	background-color: rgb(255, 255, 255, 0.5);
 	// }
 	
 	.pageheader {
-		padding-top: 90px;
+		padding-top: 40px;
 		display: flex;
     align-items: center;
 		overflow: hidden;
 		
 		.iconstick {
-			height: 340px;
-			width: 1260px;
+			height: 200px;
+			width: 730px;
 			display: flex;
 			align-items: center;
 			padding-left: 50px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 113px;
+			font-size: 66px;
 			color: #fff;
-			line-height: 100px;
-			gap: 60px;
+			line-height: 1;
+			gap: 40px;
 			border-radius: 0 25px 25px 0;
 			background-color: #51267d;
 			animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
 		}
 		.title {
-			margin-top: 50px;
-    	margin-left: 100px;
+			margin-top: 60px;
+    	margin-left: 50px;
 		}
 	}
 
 	.topAlert {
 		justify-content: flex-start;
-		margin-left: 270px;
+		margin-left: 110px;
     margin-top: 80px;
+		font-size: 28px;
 	}
 
 	.threeboxes {
-		margin: 50px 270px 0;
-		height: 1080px;
+		margin: 60px 80px 0;
+		height: 715px;
 		display: flex;
-		gap: 60px;
+		gap: 30px;
 		
 		> div {
 			flex: 1 0 0%;
-			border-radius: 25px;
+			border-radius: 20px;
     	border: 1px solid #51267d;
 			background-color: #51267d; //rgba(255, 255, 255, 1);
 			display: flex;
 			flex-direction: column;
 			// align-items: center;
-			padding-left: 70px;
-			padding-top: 70px;
+			padding-left: 40px;
+			padding-top: 60px;
 			justify-content: space-between;
 			animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
 			
@@ -162,10 +164,13 @@ export default {
 				animation-delay: .9s;
 			}
 		}
+		.topimg img {
+			width: 520px;
+		}
 		.title {
 			font-weight: bold;
-			font-size: 50px;
-			line-height: 60px;
+			font-size: 27px;
+			line-height: 33px;
 			color: #fff;
 			// text-align: center;
 			// height: 260px;
@@ -175,12 +180,15 @@ export default {
 			
 		}
 		.botbut {
-			height: 250px;
+			height: 190px;
 			.glob-button {
-				height: 170px;
+				height: 96px;
 				line-height: 1.25;
 				background-color: rgba(81, 38, 125, 0.9);
 				text-align: right;
+				svg {
+					padding: 25px 25px;
+				}
 			}
 		}
 		

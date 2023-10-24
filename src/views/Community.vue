@@ -5,10 +5,11 @@
 			<div class="bodyarea">
 
 				<div class="pagetitle">
-					<img src="/img/globein_overview.png" alt="">
+					<img src="/img/globein_overview.png" width="786">
 					<div class="headline">
-						The GlobeIN programme provides accessible, expert-led content, designed to support you in providing the best possible care for your patients.
-						<br>See below for testimonials on our programme from global experts, and for more information on how to access our available resources
+						The GlobeIN programme provides accessible, expert-led content, designed to support you in providing the 
+						<br>best possible care for your patients. See below for testimonials on our programme from global experts, and 
+						<br>for more information on how to access our available resources
 					</div>
 				</div>
 
@@ -17,11 +18,11 @@
 						<rect y="381.9" width="1152.57" height="571.33" rx="25" ry="25" style="fill: #868585; opacity: .15;"/>
 						<rect x="1187.1" y="673.34" width="831.22" height="241.38" rx="25" ry="25" style="fill: #868585; opacity: .15;"/>
 						<rect x="1369.29" y="212.53" width="756.31" height="386.82" rx="25" ry="25" style="fill: #868585; opacity: .15;"/>
-						<rect x="444.41" width="1287.65" height="885.6" rx="25" ry="25" style="fill: #51267d;"/>
+						<rect x="400" width="1320" height="910" rx="85" ry="85" style="fill: #51267d;"/>
 					</svg>
 					<div class="content">
 						<div class="title">
-							<svg style="width: 135px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.73 113.95">
+							<svg style="width: 78px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.73 113.95">
 								<path d="m120.8,89.87c-.52,0-1.04-.2-1.43-.58l-20.33-19.87h-6.44c-1.13,0-2.05-.92-2.05-2.05s.92-2.05,2.05-2.05h7.28c.54,0,1.05.21,1.43.58l17.44,17.05v-18c0-1.01.74-1.87,1.73-2.03,6.82-1.07,10.14-5.23,10.14-12.72V14.09c0-7.09-2.94-9.99-10.15-9.99h-50.47c-6.21,0-15.44,2.66-15.44,9.99v36.11c0,7.06,8.23,15.11,15.44,15.11h12.2c1.13,0,2.05.92,2.05,2.05s-.92,2.05-2.05,2.05h-12.2c-9.5,0-19.54-9.88-19.54-19.21V14.09c0-9.68,10.13-14.09,19.54-14.09h50.47c9.45,0,14.25,4.74,14.25,14.09v36.11c0,8.94-4.1,14.58-11.87,16.43v21.19c0,.82-.49,1.57-1.26,1.89-.26.11-.53.16-.8.16Z" style="fill: #fff;"/>
 								<path d="m13.93,113.95c-.28,0-.57-.06-.84-.18-.74-.33-1.21-1.06-1.21-1.87v-21.19c-7.78-1.85-11.88-7.49-11.88-16.43v-36.11c0-8.76,6.5-14.41,16.57-14.41h25.56c1.13,0,2.05.92,2.05,2.05s-.92,2.05-2.05,2.05h-25.56c-2.93,0-12.47.74-12.47,10.31v36.11c0,7.49,3.32,11.65,10.14,12.72,1,.16,1.73,1.02,1.73,2.03v18.29l19.84-17.73c.37-.34.86-.52,1.37-.52h29.86c6.74,0,13.11-7.19,13.11-14.79v-6.91c0-1.13.92-2.05,2.05-2.05s2.05.92,2.05,2.05v6.91c0,9.88-8.2,18.89-17.21,18.89h-29.08l-22.67,20.26c-.38.34-.87.52-1.37.52Z" style="fill: #fff;"/>
 							</svg>
@@ -39,7 +40,7 @@
 				</div>
 
 				<div class="accessPortal fade-in-bottom">
-					<div style="margin-top: 350px;">Learn more about the GlobeIN programme on our website</div>
+					<div style="margin-top: 200px;">Learn more about the GlobeIN programme on our website</div>
 					<div class="touchbtn animate__animated animate__pulse animate__infinite animate__slow" @click="openWebsitePopup()"><img src="/img/btn_touchtolearn.png"/> </div>
 				</div>
 
@@ -103,16 +104,17 @@ export default {
 @import '../assets/scss/_variables';
 
 .community {
-  // background-image: url('/img/temp5.jpg');
-	// .content-box {
+  // background-image: url('/img/p1_Page_11.jpg');
+	// background-size: 100% 100%;
+  // .content-box {
 	// 	background-color: rgb(255, 255, 255, 0.5);
 	// }
 
 	.joinPool {
 		position: absolute;
-		top: 735px;
-		left: 236px;
-		width: 2125px;
+		top: 545px;
+		left: 80px;
+		width: 1200px;
 		.content {
 			position: absolute;
 			left: 0;
@@ -120,33 +122,32 @@ export default {
 			width: 100%;
 			.title {
 				font-family: 'SourceSansPro-Semibold';
-				font-size: 90px;
+				font-size: 52px;
 				color: #fff;
 				text-align: center;
-				margin-top: 60px;
-				margin-left: 60px;
+				margin-top: 35px;
 			}
 			.gridballoons {
 				display: flex;
-    		flex-wrap: wrap;
-				margin-top: 50px;
-				margin-left: 90px;
-    		margin-right: 50px;
+				flex-wrap: wrap;
+				margin-top: 25px;
+				margin-left: 5px;
+				margin-right: 15px;
 				flex-direction: column;
+				height: 450px;
 				// justify-content: flex-start;
 				// align-items: flex-start;
-				height: 750px;
-
+				
 				.comment{
 					position: relative;
 					width: calc(50% - 26px);
     			margin: 13px;
 					border-radius: 16px;
 					box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 5px;
-					line-height: 55px;
-					font-size: 37px;
+					line-height: 31px;
+					font-size: 21px;
 					font-weight: bold;
-					padding: 20px 90px;
+					padding: 10px 50px;
 					color: #fff;
 					.author {
 						font-weight: normal;
@@ -155,10 +156,11 @@ export default {
 						content: " ";
 						background: url('/img/quotes_1.svg') no-repeat;
 						position: absolute;
-						top: 30px;
-    				left: 12px;
-						width: 58px;
-						height: 49px;
+						top: 13px;
+    				left: 10px;
+						width: 34px;
+						height: 28px;
+						background-size: 100%;
 					}
 					&::after{
 						content: " ";
@@ -166,8 +168,9 @@ export default {
 						position: absolute;
 						bottom: 8px;
     				right: 25px;
-						width: 58px;
-						height: 49px;
+						width: 34px;
+						height: 28px;
+						background-size: 100%;
 					}
 
 					&:nth-child(1) { animation-delay: 1s; } 
@@ -188,14 +191,14 @@ export default {
 	
 	.accessPortal {
 		position: absolute;
-		left: 2430px;
-		top: 880px;
-		width: 1128px;
-		height: 765px;
+		left: 1320px;
+    top: 630px;
+    width: 680px;
+    height: 510px;
 		background-image: url('/img/bg_community_touch.svg');
 		background-repeat: no-repeat;
 		font-family: 'SourceSansPro-Semibold';
-		font-size: 67px;
+		font-size: 39px;
 		line-height: 1.2;
 		color: #fff;
 		// border-radius: 25px;
@@ -210,15 +213,19 @@ export default {
 			// letter-spacing: -2px;
 			margin-top: 25px;
 			text-align: center;
+			img {
+				width: 530px;
+			}
 		}
 	}
 
 	.bottomAlert {
 		position: absolute;
-		top: 1740px;
+		top: 1160px;
     margin: auto;
     left: 0;
     right: 0;
+		font-size: 29px;
 	}
 
   

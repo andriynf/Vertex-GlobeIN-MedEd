@@ -78,26 +78,26 @@ body {
   left: 0;
 
 	.content-box {
-		width: calc(100% - 2*65px);
-		height: calc(100% - 2*55px);
-		margin: 55px 65px;
+		width: calc(100% - 2*35px);
+		height: calc(100% - 2*35px);
+		margin: 35px;
 		background-color: rgba(255, 255, 255, 0.95);
 		overflow: hidden;
 
 		.bodyarea {
-			height: 1800px;
+			height: 1280px;
 			// background-color: #239d2d96;
 
 			.pagetitle {
-				padding-top: 135px;
+				padding-top: 85px;
 				text-align: center;
 				.headline {
 					font-family: 'SourceSansPro-Semibold';
-					font-size: 57px;
-					line-height: 75px;
-					margin-top: 40px;
+					font-size: 32px;
+					line-height: 1.25;
+					margin-top: 35px;
 					color: #51267d;
-					letter-spacing: -2px;
+					// letter-spacing: -2px;
 
 					-webkit-animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
 					animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both
@@ -204,27 +204,27 @@ iframe {
 
 .btn-outline-white {
 	position: relative;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	color: #fff;
 	background-color: transparent;
 	border-radius: 16px;
-	padding: 42px 0;
-	padding-right: 70px;
-	padding-left: 105px;
+	padding: 30px 0;
+	padding-right: 50px;
+	padding-left: 70px;
 	font-family: 'SourceSansPro-Semibold';
-	font-size: 46px;
+	font-size: 29px;
 	line-height: 1;
 
 	&::before {
 		content: " ";
 		background-image: url('/img/img_arrow_left.svg');
 		position: absolute;
-		left: 40px;
+		left: 25px;
 		top: 0;
 		bottom: 0;
 		margin: auto;
-		width: 39px;
-		height: 75px;
+		width: 26px;
+		height: 51px;
 	}
 	&.active,
 	&:hover {

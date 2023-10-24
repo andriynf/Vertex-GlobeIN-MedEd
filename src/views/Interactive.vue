@@ -6,10 +6,11 @@
 			<div class="bodyarea">
 
 				<div class="pagetitle">
-					<img src="/img/globein_teractive.png" alt="">
+					<img src="/img/globein_teractive.png" width="1286">
 					<div class="headline">
-						Providing a wide range of educational resources for the multidisciplinary team involved in managing patients with haemoglobinopathies through our
-						<br>dedicated GlobeIN website. The GlobeIN website houses a multitude of resources on key topics of interest and practical elements of care
+						Providing a wide range of educational resources for the multidisciplinary team involved in managing patients 
+						<br>with haemoglobinopathies through our dedicated GlobeIN website. The GlobeIN website houses a multitude of 
+						<br>resources on key topics of interest and practical elements of care
 					</div>
 				</div>
 
@@ -107,19 +108,25 @@ export default {
 @import '../assets/scss/_variables';
 
 .interactive {
-  // background-image: url('/img/temp4.jpg');
+  // background-image: url('/img/p1_Page_03.jpg');
+	// background-size: 100% 100%;
 	// .content-box {
-	// 	background-color: rgb(255, 255, 255, 0.5);
+	// 	background-color: transparent;
 	// }
 
+	.headline {
+		font-size: 38px !important;
+	}
+
 	.threeboxes {
-		margin: 40px 120px 0;
-		height: 810px;
+		margin: 80px 60px 0;
+		height: 440px;
 		display: flex;
 		justify-content: space-between;
+		gap: 25px;
 		> div {
 			flex: 1 0 0%;
-			margin: 0 25px;
+			// margin: 0 25px;
 			border-radius: 25px;
     	padding: 20px;
 
@@ -146,21 +153,25 @@ export default {
 			background-image: url("/img/coming_soon.png");
 			background-repeat: no-repeat;
     	background-position: top right;
+			background-size: 200px;
 		}
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 80px;
+			font-size: 43px;
 			color: #fff;
 			text-align: center;
 		}
 		.circle {
-			width: 305px;
-			height: 305px;
+			width: 165px;
+			height: 165px;
 			border-radius: 50%;
 			background-color: rgba(255, 255, 255, 0.2);
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			img {
+				height: 125px;
+			}
 		}
 		.glob-button {
 			border-radius: 60px;

@@ -56,7 +56,10 @@ export default {
 <style lang="scss">
 @import '../assets/scss/_variables';
 
-// .attract {
-	// display: none;
-// }
+.attract {
+	video {
+		width: 100%;
+		height: 100%;
+	}
+}
 </style>

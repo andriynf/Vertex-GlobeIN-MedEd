@@ -19,7 +19,7 @@
     <segment-player-box v-if="showSegmentContent >= 0" />
     <the-popup />
 	  
-		<banner-booth />
+		<!-- <banner-booth /> -->
 
   </div>
 </template>
@@ -137,6 +137,7 @@ export default {
           screen_height = document.documentElement.clientHeight,
           app_width = this.config.width,
           app_height = this.config.height;
+				// console.log(screen_width, app_width);
 
         let scale_valueX = 1;
 				let scale_valueY = 1;

@@ -6,16 +6,16 @@
 				<div class="bottommenu slide-in-blurred-bottom">
 					<button class="btnHome" @click="onHomeClick()">
 						<div>
-							<svg style="width: 63px; height: 61px;" viewBox="0 0 62.76 60.76">
-								<polygon points="61.26 31.38 31.38 1.5 1.5 31.38 10.25 31.38 10.25 59.26 52.5 59.26 52.5 31.38 61.26 31.38" style="fill: none; stroke: #512c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3px;"/>
+							<svg style="width: 45px; height: 43px;" viewBox="0 0 44.68 43.25">
+								<polygon points="43.68 22.34 22.34 1 1 22.34 7.25 22.34 7.25 42.25 37.43 42.25 37.43 22.34 43.68 22.34" style="fill: none; stroke: #51267d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
 							</svg>
 							<span>HOME</span>
 						</div>
 					</button>
 					<button class="btnBack" @click="onBackClick()">
 						<div>
-							<svg style="width: 39px; height: 75px;" viewBox="0 0 38.94 74.87">
-								<polyline points="37.44 1.5 1.5 37.44 37.44 73.37" style="fill: none; stroke: #512c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3px;"/>
+							<svg style="width: 28px; height: 53px;" viewBox="0 0 27.67 53.34">
+								<polyline points="26.67 1 1 26.67 26.67 52.34" style="fill: none; stroke: #51267d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
 							</svg>
 							<span>Back</span>
 						</div>
@@ -23,15 +23,15 @@
 					<button class="btnNext" @click="onNextClick()">
 						<div>
 							<span>Next</span>
-							<svg style="width: 39px; height: 75px;" viewBox="0 0 38.94 74.87">
-								<polyline points="1.5 1.5 37.44 37.44 1.5 73.37" style="fill: none; stroke: #512c7d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3px;"/>
+							<svg style="width: 28px; height: 53px;" viewBox="0 0 27.67 53.34">
+								<polyline points="1 1 26.67 26.67 1 52.34" style="fill: none; stroke: #51267d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
 							</svg>
 						</div>
 					</button>
 				</div>
 			</div>
 			<div class="col">
-				<img class="logoimg" src="/img/vertex_logo_color.png" alt="">
+				<img class="logoimg" src="/img/vertex_logo_color.svg" width="179" alt="">
 			</div>
 		</div>
 	</div>
@@ -100,16 +100,16 @@
 		animation-delay: 1s !important;
 
 		button {
-			border: 1px solid #51267d;
+			border: 2px solid #51267d;
 			color: #51267d;
 			background-color: transparent;
 			border-radius: 16px;
-			height: 125px;
-			width: 256px;
+			height: 90px;
+			width: 183px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 45px;
+			font-size: 30px;
 			line-height: 1;
-			margin: 55px 25px 0;
+			margin: 28px 15px 0;
 			> div {
 				display: flex;
 				align-items: center;
@@ -124,7 +124,7 @@
 	}
 	.logoimg {
 		margin-left: auto;
-		margin-right: 90px;
+		margin-right: 100px;
 		display: block;
 	}
 }

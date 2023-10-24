@@ -16,7 +16,7 @@
 				<div class="bottomLine"></div>
 
         <!-- close button -->
-        <div class="btn-close-popup" @click="closeClick()"><img src="/img/icon_close.svg" width="74" />Close</div>
+        <div class="btn-close-popup" @click="closeClick()"><img src="/img/icon_close.svg" width="41" />Close</div>
 
       </div>
     </div>
@@ -157,6 +157,8 @@ export default {
 
 <style lang="scss">
 .the-popup {
+	// background-image: url('/img/p1_Page_06.jpg');
+	// background-size: 100% 100%;
 	// background-image: url('/img/temp10.jpg');
   background-color: rgba(29, 29, 27, 0.85);
 
@@ -167,8 +169,9 @@ export default {
 		justify-content: center;
 	}
   .modal-content {
-		width: 3345px;
-		height: 1805px !important;
+		// margin-top: 25px; // REMOVE IN PROD
+		width: 1940px;
+		height: 1250px !important;
     // background-color: transparent;
     background-color: rgba(255, 255, 255, 0.95);
     // background-color: rgba(255, 255, 255, 0.5); // REMOVE IN PROD
@@ -185,20 +188,20 @@ export default {
 
 	.btn-close-popup {
 		position: absolute;
-		top: -20px;
-		right: -40px;
-		width: 256px;
-		height: 125px;
+		top: -10px;
+    right: -23px;
+		width: 150px;
+		height: 72px;
 		background-color: #51267d;
 		border-radius: 16px;
-		border: 4px solid #fff;
+		border: 2px solid #fff;
 		font-family: 'SourceSansPro-Semibold';
-		font-size: 41px;
+		font-size: 24px;
 		color: #fff;
 		display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 13px;
 		cursor: pointer;
 		// transition: all 0.3s ease;
 	}
@@ -219,33 +222,34 @@ export default {
 	/* POPUP CHILD CONTENT */
 
 	.popheader {
-		padding-top: 100px;
+		padding-top: 60px;
 		display: flex;
     align-items: center;
 		overflow: hidden;
 		
 		.iconstick {
-			height: 350px;
-			width: 1260px;
+			height: 200px;
+			width: 730px;
 			display: flex;
+			flex-shrink: 0;
 			align-items: center;
 			align-self: flex-start;
-			padding-left: 50px;
+			padding-left: 60px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 113px;
-			line-height: 100px;
+			font-size: 66px;
+			line-height: 1;
 			color: #fff;
-			gap: 60px;
+			gap: 40px;
 			border-radius: 0 25px 25px 0;
 			background-color: #d06578;
 			animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
 		}
 		.title {
-			width: 1780px;
-			margin-left: 100px;
+			margin-left: 60px;
+			padding-right: 50px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 47px;
-			line-height: 63px;
+			font-size: 32px;
+			line-height: 41px;
 			color: #1d1d1b;
 			animation:fade-in-bck .6s cubic-bezier(.39,.575,.565,1.000) both;
 			.accent {

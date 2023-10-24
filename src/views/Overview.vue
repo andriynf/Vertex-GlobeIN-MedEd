@@ -5,14 +5,14 @@
 			<div class="bodyarea">
 				
 				<div class="pagetitle">
-					<img src="/img/globein_overview.png" alt="">
+					<img src="/img/globein_overview.png" width="800">
 					<div class="headline">
 						A multifaceted, tailored medical education programme, developed in close partnership with an expert steering
 						<br>committee, to deliver bespoke education for healthcare professionals managing patients with haemoglobinopathies
 					</div>
 				</div>
 
-				<div class="row tablerow">
+				<div class="tablerow">
 					<div class="col">
 						<div class="colForum fade-in-bottom">
 							<div class="title">EXPERT EDUCATIONAL MEETINGS</div>
@@ -109,47 +109,52 @@ export default {
 @import '../assets/scss/_variables';
 
 .overview {
-  // background-image: url('/img/temp3.jpg');
+  // background-image: url('/img/p1_Page_02.jpg');
+	// background-size: 100% 100%;
 	// .content-box {
 	// 	background-color: transparent;
 	// }
 
 	.tablerow {
-		margin: 50px 190px 0;
-		height: 1080px;
-		--bs-gutter-x: 50px;
+		margin: 70px 50px 0;
+		height: 690px;
+		display: flex;
+    gap: 40px;
 
 		.col > div {
 			height: 100%;
-			border-radius: 25px;
+			border-radius: 50px;
 		}
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 66px;
-			line-height: 75px;
+			font-size: 39px;
+			line-height: 42px;
 			color: #fff;
-			height: 180px;
+			height: 110px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
 		.imgrow {
 			text-align: center;
+			img {
+				height: 100px;
+			}
 		}
 		.bodytext {
-			font-size: 48px;
-			line-height: 54px;
+			font-size: 26px;
+			line-height: 34px;
 			color: #fff;
 			text-align: center;
-			padding: 20px 70px;
-			// line-height: 1.3;
+			padding: 30px 20px;
+			
 			p {
-				margin-bottom: 22px;
+				margin-bottom: 12px;
 			}
 		}
 		.infoBottom {
 			position: absolute;
-			bottom: 140px;
+			bottom: 100px;
 			width: 100%;
 		}
 	}

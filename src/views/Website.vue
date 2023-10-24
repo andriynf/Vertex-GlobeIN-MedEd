@@ -13,7 +13,7 @@
 
 				<div v-else>
 					<div class="pagetitle">
-						<img src="/img/globein_overview.png" alt="">
+						<img src="/img/globein_overview.png" width="786">
 						<div class="headline">
 							Dedicated to providing tailored medical education resources for haemoglobinopathies to support you, your patients,
 							<br>and the multidisciplinary care team. Discover a range of resources covering pathophysiology, clinical complications,
@@ -21,10 +21,10 @@
 						</div>
 					</div>
 
-					<div class="row gx-0" style="margin-top: 60px; justify-content: space-between;">
+					<div class="row gx-0" style="margin-top: 45px; justify-content: space-between;">
 						<div class="col-auto">
 							<div class="imggray animate__animated animate__fadeInRight">
-								<img src="/img/globweb.png" alt="">
+								<img src="/img/globweb.png" width="465">
 							</div>
 						</div>
 						<div class="col-auto">
@@ -120,9 +120,10 @@ export default {
 @import '../assets/scss/_variables';
 
 .globeinwebsite {
-  // background-image: url('/img/temp11.jpg');
-	// .content-box {
-	// 	background-color: rgb(255, 255, 255, 0.3);
+  // background-image: url('/img/p1_Page_12.jpg');
+	// background-size: 100% 100%;
+  // .content-box {
+	// 	background-color: rgb(255, 255, 255, 0.5);
 	// }
 
 	.iframewebsite {
@@ -136,7 +137,7 @@ export default {
 		}
 	}
 	.bodyarea {
-		width: 3000px;
+		width: 1840px;
     margin: auto;
 
 		.pagetitle {
@@ -144,7 +145,7 @@ export default {
 				background-color: #08a9b7;
 				color: #fff !important;
 				border-radius: 25px;
-				height: 286px;
+				height: 175px;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -152,28 +153,31 @@ export default {
 		}
 
 		.imggray {
-			width: 1110px;
-			height: 660px;
-			border-radius: 25px;
+			width: 695px;
+			height: 368px;
+			border-radius: 15px;
 			background-color: rgba(135, 135, 135, 0.12);
 			display: flex;
 			justify-content: center;
 			align-items: center;
 		}
 		.textgray {
-			width: 1825px;
-			height: 660px;
-			border-radius: 25px;
+			width: 1100px;
+			height: 368px;
+			border-radius: 15px;
 			border: 2px solid rgba(135, 135, 135, 0.45);
 			color: #51267d;
-			font-size: 66px;
+			font-size: 37px;
+			line-height: 1.25;
 			display: flex;
     	align-items: center;
 
 			ul {
 				list-style: none;
-				margin-left: 100px;
-				margin-right: 100px;
+    		margin-top: 20px;
+				margin-bottom: 0;
+				margin-left: 60px;
+				margin-right: 70px;
 				li::before {
 					content: "•";
 					color: #08a9b7;
@@ -189,20 +193,20 @@ export default {
 
 		h3 {
 			font-weight: bold;
-			font-size: 65px;
+			font-size: 40px;
 			color: #08a9b7;
 			text-align: center;
-    	margin-top: 70px;
+    	margin-top: 60px;
 		}
 	}
 
 
 	
 	.blackinfotext {
-		margin-top: 40px;
+		margin-top: 30px;
 		.info-content {
 	    // padding: 20px 70px;
-			font-size: 43px;
+			font-size: 27px;
 			color: #3c3c3b !important;
 			border-color: #3c3c3b;
 		}
@@ -212,8 +216,8 @@ export default {
 	}
 
 	.footnote {
-		font-size: 35px;
-		line-height: 1;
+		font-size: 21px;
+		line-height: 1.25;
 		color: #3c3c3b;
 		text-align: center;
     margin-top: 20px;

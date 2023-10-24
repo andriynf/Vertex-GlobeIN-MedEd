@@ -3,15 +3,15 @@
 
 		<div class="popheader">
 			<div class="iconstick">
-				<img src="/img/bigicon_learn.png" width="306">
+				<img src="/img/bigicon_learn.png" width="177">
 				<div>E-LEARNING</div>
 				<img class="commingsoon" src="/img/coming_soon_sm.png" alt="">
 				<!-- <div>VIDEOS <br>& PODCASTS</div> -->
 			</div>
 			<div class="title">
-				A range of educational resources for healthcare professionals involved in <br>managing patients with haemoglobinopathies, covering key topics of interest <br>and practical elements of patient care
+				A range of educational resources for healthcare professionals involved in <br>managing patients with haemoglobinopathies, covering key topics of <br>interest and practical elements of patient care
 				<div class="clockbox">
-					<img src="/img/icon_clock.svg" width="86" />
+					<img src="/img/icon_clock.svg" width="50" />
 					Stay tuned for the upcoming resources
 				</div>
 			</div>
@@ -19,19 +19,19 @@
 
 		<div class="threeboxes">
 			<div>
-				<div class="circle animate__animated animate__bounceIn"><img src="/img/bigicon_module.png"/></div>
+				<div class="circle"><img src="/img/bigicon_module.png" width="188"/></div>
 				<div class="title">E-LEARNING <br>MODULES</div>
-				<div>Bite-size modules to enhance knowledge and <br>understanding of the fundamental topics in <br>sickle cell disease and β-thalassaemia</div>
+				<div>Bite-size modules to enhance <br>knowledge and understanding of the <br>fundamental topics in sickle cell <br>disease and β-thalassaemia</div>
 			</div>
 			<div>
-				<div class="circle animate__animated animate__bounceIn"><img src="/img/bigicon_studies.png"/></div>
+				<div class="circle"><img src="/img/bigicon_studies.png" width="176"/></div>
 				<div class="title">INTERACTIVE PATIENT <br>CASE STUDIES</div>
-				<div>Interactive patient cases demonstrating a range <br>of clinical complications experienced by <br>paediatric and adult patients with sickle cell <br>disease and β-thalassaemia</div>
+				<div>Interactive patient cases <br>demonstrating a range of clinical <br>complications experienced by <br>paediatric and adult patients with <br>sickle cell disease and β-thalassaemia</div>
 			</div>
 			<div>
-				<div class="circle animate__animated animate__bounceIn"><img src="/img/bigicon_resources.png"/></div>
+				<div class="circle"><img src="/img/bigicon_resources.png" width="164"/></div>
 				<div class="title">ADDITIONAL <br>RESOURCES</div>
-				<div>Further resources to support your <br>educational learning needs in sickle cell <br>disease and β-thalassaemia</div>
+				<div>Further resources to support your <br>educational learning needs in sickle <br>cell disease and β-thalassaemia</div>
 			</div>
 		</div>
 
@@ -128,9 +128,10 @@ export default {
 			display: flex;
 			align-items: center;
 			justify-content: space-evenly;
-			width: 1000px;
-			height: 158px;
-			margin-top: 20px;
+			width: 580px;
+			height: 91px;
+			margin-top: 30px;
+			font-size: 27px;
 		}
 		
 		.iconstick {
@@ -140,6 +141,7 @@ export default {
 				position: absolute;
 				top: 0;
 				right: 0;
+				width: 190px;
 			}
 		}
 		.title {
@@ -148,19 +150,19 @@ export default {
 	}
 
 	.threeboxes {
-		margin: 110px 50px 0;
-		height: 1070px;
+		margin: 80px 60px 0;
+		height: 740px;
 		display: flex;
-		justify-content: space-between;
-		font-size: 48px;
-		line-height: 60px;
+		// justify-content: space-between;
+		font-size: 28px;
+		line-height: 36px;
 		color: #fff;
 		text-align: center;
+		gap: 30px;
 
 		> div {
 			flex: 1 0 0%;
-			margin: 0px 25px;
-			padding: 120px 25px;
+			padding: 70px 30px;
 			border-radius: 25px;
 			display: flex;
 			flex-direction: column;
@@ -180,18 +182,19 @@ export default {
 			}
 		}
 		.circle {
-			width: 305px;
-			height: 305px;
+			width: 210px;
+			height: 210px;
 			border-radius: 50%;
 			background-color: rgba(255, 255, 255, 0.2);
+			flex: 0 0 auto;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 80px;
-			line-height: 75px;
+			font-size: 51px;
+			line-height: 1;
 			margin-top: 50px;
 			margin-bottom: 55px;
 		}

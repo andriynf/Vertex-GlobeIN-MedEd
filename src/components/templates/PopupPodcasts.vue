@@ -3,11 +3,11 @@
 
 		<div class="popheader">
 			<div class="iconstick">
-				<img src="/img/bigicon_cast.png" width="353">
+				<img src="/img/bigicon_cast.png" width="205">
 				<div>VIDEOS <br>& PODCASTS</div>
 			</div>
 			<div v-if="showPlayer==false" class="title">
-				Video and podcast content hosted by leading international experts, focused on key topics of clinical interest in haemoglobinopathies. See below for available content:
+				Video and podcast content hosted by leading international experts, <br>focused on key topics of clinical interest in haemoglobinopathies. <br>See below for available content:
 			</div>
 		</div>
 
@@ -28,7 +28,7 @@
 			</div>
 			<div>
 				<div class="topimg"><img src="/img/podcast_b1.png"/></div>
-				<div class="title">HOLISTIC CONSIDERATIONS <br>IN HAEMOGLOBINOPATHIES: <br>PSYCHOLOGICAL AND MENTAL HEALTH</div>
+				<div class="title">HOLISTIC CONSIDERATIONS IN <br>HAEMOGLOBINOPATHIES: <br>PSYCHOLOGICAL AND MENTAL HEALTH</div>
 				<div class="botbut">
 					<global-button color="#fff" @click="openVideoPage(2)">Click here to watch a teaser of Dr Rachel <br>Kesse-Adu and Dr Kofi Anie’s podcast</global-button>
 				</div>
@@ -47,7 +47,7 @@
 					<div class="label" v-html="pItem.button_label"></div>
 					<div class="arrow">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.94 74.87">
-							<polyline points="1.5 1.5 37.44 37.44 1.5 73.37" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 5px;"/>
+							<polyline points="1.5 1.5 37.44 37.44 1.5 73.37" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/>
 						</svg>
 					</div>
 				</div>
@@ -71,8 +71,8 @@
 					<global-button color1="#fff" @click="onNextVideoClick()">Next</global-button>
 				</div>
 				<div class="headphones">
-					<div style="width: 175px;">
-						<div style="width: 99px; margin: auto;">
+					<div style="width: 125px;">
+						<div style="width: 68px; margin: auto;">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 99 84" style="enable-background:new 0 0 99 84;" xml:space="preserve">
 							<path style="fill:#B2B2B2;" d="M99,74.1c-0.5,2.1-1.2,4-2.6,5.6c-1.9,2.1-4.1,3.4-7,3.5c-2.8,0.1-5.7,0-8.6,0c0-0.4,0-0.8,0-1.2
 							c0-12.7,0-25.4,0-38.2c0-6.2-1.2-12.2-4.6-17.6c-4.5-7.4-10.9-12.3-19.3-14.3c-10.6-2.5-20-0.1-28.2,7.1
@@ -244,21 +244,21 @@ export default {
 	}
 
 	.threeboxes {
-		margin: 110px 90px 0;
-		height: 1070px;
+		margin: 70px 60px 0;
+		height: 788px;
 		display: flex;
-		gap: 60px;
+		gap: 30px;
 		
 		> div {
 			flex: 1 0 0%;
-			border-radius: 25px;
+			border-radius: 20px;
 			border: 1px solid #51267d;
 			background-color:#51267d;// rgba(255, 255, 255, 1);
 			display: flex;
 			flex-direction: column;
 			// align-items: center;
-			padding-left: 70px;
-			padding-top: 70px;
+			padding-left: 40px;
+			padding-top: 60px;
 			justify-content: space-between;
 			animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
 			// background-color: #08a9b799;
@@ -273,13 +273,13 @@ export default {
 				animation-delay: .9s;
 			}
 		}
-		// .topimg {
-			// margin-top: 30px;
-		// }
+		.topimg img {
+			width: 520px;
+		}
 		.title {
 			font-weight: bold;
-			font-size: 52px;
-			line-height: 60px;
+			font-size: 27px;
+			line-height: 33px;
 			color: #fff;
 			// text-align: center;
 			// height: 260px;
@@ -288,13 +288,16 @@ export default {
 			justify-content: flex-end;
 		}
 		.botbut {
-			height: 250px;
+			height: 260px;
 			.glob-button {
-				height: 170px;
+				height: 96px;
 				line-height: 1.25;
 				background-color: rgba(81, 38, 125, 0.9);
 				text-align: right;
-				letter-spacing: -1px;
+				// letter-spacing: -1px;
+				svg {
+					padding: 25px 25px;
+				}
 			}
 		}
 		
@@ -309,19 +312,19 @@ export default {
 		display: flex;
 
 		.playmenu {
-			margin-top: 560px;
+			margin-top: 325px;
 			
 			.menuitem {
-				width: 1185px;
-				height: 267px;
-				margin-bottom: 40px;
+				width: 690px;
+				height: 155px;
+				margin-bottom: 25px;
 				display: flex;
 				align-items: center;
 				justify-content: flex-end;
-				gap: 50px;
-				border: 5px solid #d06578;
-				border-radius: 0 50px 50px 0;
-				padding-right: 70px;
+				gap: 30px;
+				border: 3px solid #d06578;
+				border-radius: 0 30px 30px 0;
+				padding-right: 40px;
 				background-color: transparent;
 				// background-color: #51267d00;
 				transition: all 0.3s ease;
@@ -329,16 +332,16 @@ export default {
 				
 				.label {
 					font-family: 'SourceSansPro-Semibold';
-					font-size: 51px;
-					line-height: 61px;
+					font-size: 27px;
+					line-height: 35px;
 					// letter-spacing: -2px;
 					color: #d06578;
 					text-align: right;
 					transition: all 0.3s ease;
 				}
 				.arrow {
-					width: 44px;
-					height: 88px;
+					width: 26px;
+					height: 51px;
 					stroke: #d06578;
 					transition: all 0.3s ease;
 				}
@@ -357,44 +360,49 @@ export default {
 
 		.playcontent {
 			position: relative;
-			padding-left: 220px;
+			padding-left: 85px;
 			font-family: 'SourceSansPro-Semibold';
 			.title {
-				font-size: 70px;
-				line-height: 85px;
+				font-size: 53px;
+				line-height: 66px;
 				color: #51267d;
-				margin-top: 100px;
+				margin-top: 95px;
 			}
 			.videocontainer {
-				width: 1582px;
-				height: 886px;
-				margin-top: 50px;
+				width: 1100px;
+				height: 620px;
+				margin-top: 25px;
 				border: 1px solid #000;
 			}
 			.infotext {
-				font-size: 42px;
-				line-height: 63px;
-				margin-top: 50px;
+				font-size: 26px;
+				line-height: 44px;
+				margin-top: 30px;
 			}
 
 			.bottomButtons {
 				position: absolute;
-				bottom: 110px;
+				bottom: 80px;
 				display: flex;
-				gap: 80px;
+				gap: 30px;
+				.glob-button {
+					font-size: 28px;
+					height: 87px;
+
+				}
 			}
 			.headphones {
 				position: absolute;
-				bottom: 110px;
-				left: 1050px;
-				width: 980px;
-				height: 153px;
-				border: 4px solid #c6c6c6;
-				border-radius: 25px;
+				bottom: 80px;
+				left: 510px;
+				width: 680px;
+				height: 87px;
+				border: 2px solid #c6c6c6;
+				border-radius: 20px;
 				display: flex;
 				align-items: center;
 				font-family: 'SourceSansPro-Semibold';
-				font-size: 36px;
+				font-size: 24px;
 				color: #9d9d9c;
 			}
 		}

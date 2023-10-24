@@ -40,18 +40,18 @@
 		top: 0;
 		bottom: 0;
 		margin: auto;
-		left: -40px;
-		width: 60px;
-		border: 10px solid #512c7d;
+		left: -25px;
+    width: 40px;
+    border: 6px solid #512c7d;
 		border-radius: 50%;
 	}
 
 	.info-content {
 		background-color: rgba(255, 255, 255, 0.9);
 		font-family: 'SourceSansPro-Semibold';
-		font-size: 36px;
-		padding: 20px 50px;
-		border-radius: 25px;
+		font-size: 18px;
+		padding: 11px 28px;
+		border-radius: 12px;
 		position: relative;
 	}
 

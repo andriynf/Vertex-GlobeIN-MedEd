@@ -1,7 +1,7 @@
 <template>
   <div class="homepage page-view">
 		
-		<img class="vertexlogowhite" src="/img/vertex_logo_white.png" alt="">
+		<img class="vertexlogowhite" src="/img/vertex_logo_white.svg" width="243" alt="">
 
 		<div class="centerlogo animate__animated animate__zoomIn">
 			<svg class="ellipse" viewBox="0 0 1754.12 1434.19">
@@ -11,7 +11,7 @@
 			<div class="titleimage">
 				<div class="d-flex align-items-center">
 					<span>GLOBE</span>
-					<img src="/img/globe_twoleaves.svg" width="240" style="margin: 0 40px;" />
+					<img src="/img/globe_twoleaves.svg" width="126" style="margin: 0 15px;" />
 					<span class="text-aqua">IN</span>
 				</div>
 				<div class="subtext">
@@ -122,7 +122,7 @@ export default {
 @import '../assets/scss/_variables';
 
 .homepage {
-  // background-image: url('/img/bg_homepage.jpg');
+  // background-image: url('/img/p1_Page_01.jpg');
   // background-size: 100% 100%;
 
 	* {
@@ -131,16 +131,16 @@ export default {
 
 	.vertexlogowhite{
 		position: absolute;
-		right: 230px;
-    top: 1760px;
+		right: 120px;
+    bottom: 90px;
 	}
 
 	.centerlogo {
 		position: absolute;
-		width: 1754px;
-		height: 1434px;
-		left: 320px;
-    top: 350px;
+		width: 895px;
+		height: 735px;
+		left: 125px;
+    top: 380px;
 		
 		.ellipse {
 			position: absolute;
@@ -149,15 +149,15 @@ export default {
 
 		.titleimage {
 			position: absolute;
-			left: 260px;
-    	top: 560px;
+			left: 110px;
+    	top: 260px;
 			font-family: 'StolzlLight';
-			font-size: 220px;
+			font-size: 110px;
 			line-height: 1.3;
 			color: #51267d;
 			text-align: center;
 			.subtext {
-				font-size: 38px;
+				font-size: 18px;
 				color: #1d1d1b;
 			}
 		}
@@ -165,32 +165,30 @@ export default {
 	
 	.menubuttons {
 		position: absolute;
-		left: 2230px;
-    top: 560px;
-    width: 1210px;
-		// border: #001177 1px solid;
-		// font-size: 34px;
-		// line-height: 1.2;
+		left: 1110px;
+    top: 390px;
+    width: 790px;
+		
 		> div {
-			height: 190px;
-			background-color: #51267d;
-			margin-bottom: 90px;
-			padding-right: 70px;
+			height: 140px;
+			background-color: rgba(82, 38, 125, 0.9);
+			margin-bottom: 57px;
+			padding-right: 50px;
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
 			opacity: 0.9;
-			border: 4px solid #fff;
-			border-radius: 12px;
+			border: 3px solid #fff;
+			border-radius: 25px;
 			color: white;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 60px;
-			line-height: 65px;
+			font-size: 42px;
+			line-height: 1;
 			text-align: right;
-			gap: 60px;
+			gap: 45px;
 			//--animate-duration: 0.2s;
 			img {
-				width: 55px;
+				width: 43px;
 			}
 			&:hover{
 				padding-right: 50px;
@@ -205,8 +203,8 @@ export default {
 
 	.btnBack {
 		position: absolute;
-		left: 130px;
-		top: 1930px;
+		left: 90px;
+		bottom: 80px;
 		z-index: 1;
 	}
   

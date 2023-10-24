@@ -39,8 +39,8 @@ const Store = require("electron-store");
 let config_schema = {
   url_update: { type: "string",format: "url", default: currentUrlUpdate },
   url_api: { type: "string", default: apiUrl },
-  width: { type: "number", default: 3840 },
-  height: { type: "number", default: 2160 },
+  width: { type: "number", default: 2048 },
+  height: { type: "number", default: 1536 },
   back_inactivity_time: { type: "number", default: 180 },
   back_autoexit_time: { type: "number", default: 30 },
   screensaver_time: { type: "number", default: 30 },

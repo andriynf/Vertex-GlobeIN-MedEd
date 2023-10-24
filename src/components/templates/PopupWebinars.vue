@@ -3,7 +3,7 @@
 
 		<div class="popheader">
 			<div class="iconstick">
-				<img src="/img/bigicon_monitor.png" width="260">
+				<img src="/img/bigicon_monitor.png" width="150">
 				<div>WEBINARS</div>
 				<!-- <div>VIDEOS <br>& PODCASTS</div> -->
 			</div>
@@ -18,29 +18,32 @@
 			<div class="row panel-container">
 				<div class="boxcol">
 					<img src="/img/webinar_b1.png"/>
-					<div class="panel_title">SPOTLIGHT ON SICKLE CELL DISEASE: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
+					<div class="panel_title">SPOTLIGHT ON <br>SICKLE CELL DISEASE: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
 				</div>
 				<div class="boxcol">
 					<img src="/img/webinar_b2.png"/>
-					<div class="panel_title">TALKING β-THALASSAEMIA: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
+					<div class="panel_title">TALKING <br>β-THALASSAEMIA: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
 				</div>
 				<div class="boxcol">
 					<img src="/img/webinar_b3.png"/>
-					<div class="panel_title">SPOTLIGHT ON SICKLE CELL DISEASE: UNDERSTANDING THE THERAPEUTIC LANDSCAPE</div>
+					<div class="panel_title">SPOTLIGHT ON <br>SICKLE CELL DISEASE: UNDERSTANDING THE THERAPEUTIC LANDSCAPE</div>
 				</div>
 				<div class="boxcol">
 					<img src="/img/webinar_b4.png"/>
-					<div class="panel_title">TALKING β-THALASSAEMIA: UNDERSTANDING <br>THE THERAPEUTIC LANDSCAPE</div>
+					<div class="panel_title">TALKING <br>β-THALASSAEMIA: UNDERSTANDING <br>THE THERAPEUTIC LANDSCAPE</div>
 				</div>
 			</div>
 
 		</div>
 
 		<div class="upcomming">
-			<img src="/img/icon_clock.svg" class="roll-in-right" width="240" alt="">
+			<img src="/img/icon_clock.svg" class="roll-in-right" width="140" alt="">
 			<div class="title">The GlobeINteractive webinar series, videos, and podcasts are available in several different languages</div>
 			<info-red-note>Please contact a Vertex medical <br>representative to find out more about <br>the programme and events</info-red-note>
-			<div class="qrcode"><img src="/img/qr_webinar.png" alt="">Scan the QR code <br>to access the <br>on-demand webinars</div>
+			<div class="qrcode">
+				<div>Scan the QR code to access the <br>on-demand webinars</div>
+				<img src="/img/qr_webinar.png" >
+			</div>
 		</div>
 
 	</div>
@@ -128,38 +131,39 @@ export default {
 	
 	.speakers {
 		position: absolute;
-		top: 550px;
-    left: 80px;
-		width: 2435px;
-		height: 1148px;
+		top: 320px;
+    left: 55px;
+		width: 1415px;
+		height: 848px;
 		// background-color: rgba(255, 255, 255, 1.0);
 		background-color: #fff;
 		border: 3px solid #d06578;
-		border-radius: 25px;
+		border-radius: 35px;
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 60px;
+			font-size: 35px;
 			color: #d06578;
 			text-align: center;
-    	margin-top: 45px;
+    	margin-top: 50px;
 		}
 		.panel-container {
-			margin: 40px 60px 0;
+			margin: 45px 35px 0;
 			justify-content: space-between;
 			.boxcol {
-				width: 1125px;
-				height: 395px;
+				width: 650px;
+				height: 310px;
 				padding: 0;
 				background-color: #d06578;
 				color: #fff;
-				border-radius: 20px;
-				margin-bottom: 60px;
+				border-radius: 10px;
+				margin-bottom: 25px;
 				padding-top: 40px;
 				display: flex;
 				align-items: flex-start;
 				img {
-					margin-left: 40px;
-					margin-right: 40px;
+					width: 285px;
+					margin-left: 35px;
+					margin-right: 20px;
 				}
 
 				animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
@@ -175,9 +179,9 @@ export default {
 
 		.panel_title {
 			font-family: "Arial";
-			font-size: 41px;
+			font-size: 27px;
 			font-weight: bold;
-			// line-height: 40px;
+			line-height: 33px;
 			color: #fff;
 			// text-align: center;
 		}
@@ -187,36 +191,36 @@ export default {
 
 	.upcomming {
 		position: absolute;
-		top: 550px;
-    left: 2600px;
-		width: 657px;
-		height: 1148px;
+		top: 320px;
+    left: 1510px;
+		width: 380px;
+		height: 848px;
 		background-color: #d06578;
-		border-radius: 25px;
+		border-radius: 35px;
 		text-align: center;
-		padding-top: 40px;
+		padding-top: 25px;
 		// opacity: 0.5;
 		overflow: hidden;
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 45px;
-			line-height: 60px;
+			font-size: 24px;
+			line-height: 28px;
 			margin-top: 35px;
 			color: #fff;
-    	padding: 0 60px;
+    	padding: 0 40px;
 		}
 		.info-red-note {
 			animation-name: unset;
-			margin-top: 70px;
-			font-size: 33px;
-			line-height: 40px;
+			margin-top: 55px;
+			font-size: 18px;
+			line-height: 23px;
 			fill: #fff;
 			.info-content {
 				background-color: rgba(255, 255, 255, 0.9);
-				padding: 20px 50px;
+				padding: 10px 20px;
 			}
 			.info-icon {
-				top: -45px;
+				top: -40px;
 				bottom: unset;
 				left: 0;
 				right: 0;
@@ -225,16 +229,16 @@ export default {
 		}
 		.qrcode {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 40px;
-			line-height: 50px;
+			font-size: 24px;
+			line-height: 28px;
 			letter-spacing: -1px;
-			text-align: left;
-			margin-top: 70px;
-			margin-left: 40px;
-			display: flex;
-			align-items: center;
-			gap: 20px;
+			margin-top: 60px;
+			text-align: center;
 			color: #fff;
+			img {
+				margin-top: 25px;
+				width: 195px;
+			}
 		}
 	}
 
