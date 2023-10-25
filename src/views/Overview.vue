@@ -87,7 +87,8 @@ export default {
 			this.$router.push({ name: "homepage" });
 		},
 		onMenuNextClick() {
-			this.$router.push({ name: "podcasts" });
+			this.$router.push({ name: "interactive" });
+			// this.$router.push({ name: "podcasts" });
 		},
 		onFindMoreClick() {
 			// console.log("onFindMoreClick()");

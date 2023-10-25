@@ -81,7 +81,8 @@ export default {
 			this.$store.dispatch("forceOpenPlayer", tabid);
 		},
 		onMenuBackClick() {
-			this.$router.push({ name: "overview" });
+			this.$router.push({ name: "interactive" });
+			// this.$router.push({ name: "overview" });
 		},
 		onMenuNextClick() {
 			this.$router.push({ name: "community" });

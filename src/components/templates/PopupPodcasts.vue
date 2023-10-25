@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div>
-				<div class="topimg"><img src="/img/podcast_b1.png"/></div>
+				<div class="topimg"><img src="/img/podcast_b3.png"/></div>
 				<div class="title">HOLISTIC CONSIDERATIONS IN <br>HAEMOGLOBINOPATHIES: <br>PSYCHOLOGICAL AND MENTAL HEALTH</div>
 				<div class="botbut">
 					<global-button color="#fff" @click="openVideoPage(2)">Click here to watch a teaser of Dr Rachel <br>Kesse-Adu and Dr Kofi Anie’s podcast</global-button>
