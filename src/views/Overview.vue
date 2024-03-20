@@ -5,7 +5,7 @@
 			<div class="bodyarea">
 				
 				<div class="pagetitle">
-					<img src="/img/globein_overview.png" width="800">
+					<img src="/img/globein_overview.png" width="1055">
 					<div class="headline">
 						A multifaceted, tailored medical education programme, developed in close partnership with an expert steering
 						<br>committee, to deliver bespoke education for healthcare professionals managing patients with haemoglobinopathies
@@ -110,15 +110,14 @@ export default {
 @import '../assets/scss/_variables';
 
 .overview {
-  // background-image: url('/img/p1_Page_02.jpg');
-	// background-size: 100% 100%;
+  // background-image: url('/img/temp2.jpg');
 	// .content-box {
 	// 	background-color: transparent;
 	// }
 
 	.tablerow {
-		margin: 70px 50px 0;
-		height: 690px;
+		margin: 140px 90px 0;
+		height: 900px;
 		display: flex;
     gap: 40px;
 
@@ -128,10 +127,10 @@ export default {
 		}
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 39px;
+			font-size: 51px;
 			line-height: 42px;
 			color: #fff;
-			height: 110px;
+			height: 150px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -139,18 +138,18 @@ export default {
 		.imgrow {
 			text-align: center;
 			img {
-				height: 100px;
+				height: 130px;
 			}
 		}
 		.bodytext {
-			font-size: 26px;
-			line-height: 34px;
+			font-size: 34px;
+			line-height: 45px;
 			color: #fff;
 			text-align: center;
-			padding: 30px 20px;
+			padding: 40px 40px;
 			
 			p {
-				margin-bottom: 12px;
+				margin-bottom: 16px;
 			}
 		}
 		.infoBottom {

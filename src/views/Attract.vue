@@ -6,7 +6,7 @@
 			disablePictureInPicture 
 			controls123
 			controlsList="nofullscreen1 nodownload noremoteplayback noplaybackrate"
-			:src="'/media/176201365_vertex_heme_globein_animation_v2b_v2 (2160p).mp4'"
+			:src="'/media/176201952 Vertex Heme GlobeIN animation for congress Vertex - UK_edit_v3.mp4'"
 			>
 		</video>
 

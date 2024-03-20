@@ -20,7 +20,7 @@
 <style lang="scss">
 .qr-code-tip {
   position: absolute;
-	left: 35px;
+	left: 60px;
 	bottom: -15px;
 	animation-delay: 1s !important;
 }

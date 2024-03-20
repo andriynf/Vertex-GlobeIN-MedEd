@@ -1,7 +1,7 @@
 <template>
   <div class="homepage page-view">
 		
-		<img class="vertexlogowhite" src="/img/vertex_logo_white.svg" width="243" alt="">
+		<img class="vertexlogowhite" src="/img/vertex_logo_white.svg" width="322" alt="">
 
 		<div class="centerlogo animate__animated animate__zoomIn">
 			<svg class="ellipse" viewBox="0 0 1754.12 1434.19">
@@ -11,7 +11,7 @@
 			<div class="titleimage">
 				<div class="d-flex align-items-center">
 					<span>GLOBE</span>
-					<img src="/img/globe_twoleaves.svg" width="126" style="margin: 0 15px;" />
+					<img src="/img/globe_twoleaves.svg" width="160" style="margin: 0 15px; padding-top: 10px;" />
 					<span class="text-aqua">IN</span>
 				</div>
 				<div class="subtext">
@@ -36,7 +36,7 @@
 			</div>
 		
 			<div class="animate__animated animate__fadeInRight" @click="onMenuClick(3)">
-				<div>Join the community</div>
+				<div>Hear from the community</div>
 				<img src="/img/menu_arrow_right.svg" />
 			</div>
 
@@ -88,7 +88,7 @@ export default {
 					break;
 				case 3:
 					pagename = 'community';
-					elText = 'Join the community';
+					elText = 'Hear from the community';
 					break;
 				case 4:
 					pagename = 'website';
@@ -122,7 +122,7 @@ export default {
 @import '../assets/scss/_variables';
 
 .homepage {
-  // background-image: url('/img/p1_Page_01.jpg');
+  // background-image: url('/img/temp1.jpg');
   // background-size: 100% 100%;
 
 	* {
@@ -131,16 +131,16 @@ export default {
 
 	.vertexlogowhite{
 		position: absolute;
-		right: 120px;
-    bottom: 90px;
+		right: 180px;
+    bottom: 140px;
 	}
 
 	.centerlogo {
 		position: absolute;
-		width: 895px;
-		height: 735px;
-		left: 125px;
-    top: 380px;
+    width: 1180px;
+    height: 1000px;
+    left: 160px;
+    top: 500px;
 		
 		.ellipse {
 			position: absolute;
@@ -149,15 +149,16 @@ export default {
 
 		.titleimage {
 			position: absolute;
-			left: 110px;
-    	top: 260px;
-			font-family: 'StolzlLight';
-			font-size: 110px;
+			left: 145px;
+			top: 330px;
+			font-family: "StolzlLight";
+			font-size: 150px;
 			line-height: 1.3;
 			color: #51267d;
 			text-align: center;
+			
 			.subtext {
-				font-size: 18px;
+				font-size: 25.5px;
 				color: #1d1d1b;
 			}
 		}
@@ -165,15 +166,15 @@ export default {
 	
 	.menubuttons {
 		position: absolute;
-		left: 1110px;
-    top: 390px;
-    width: 790px;
+		left: 1470px;
+    top: 510px;
+    width: 1040px;
 		
 		> div {
-			height: 140px;
+			height: 190px;
 			background-color: rgba(82, 38, 125, 0.9);
-			margin-bottom: 57px;
-			padding-right: 50px;
+			margin-bottom: 70px;
+			padding-right: 70px;
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
@@ -182,13 +183,13 @@ export default {
 			border-radius: 25px;
 			color: white;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 42px;
+			font-size: 56px;
 			line-height: 1;
 			text-align: right;
-			gap: 45px;
+			gap: 50px;
 			//--animate-duration: 0.2s;
 			img {
-				width: 43px;
+				width: 50px;
 			}
 			&:hover{
 				padding-right: 50px;
@@ -203,8 +204,8 @@ export default {
 
 	.btnBack {
 		position: absolute;
-		left: 90px;
-		bottom: 80px;
+		left: 110px;
+		bottom: 130px;
 		z-index: 1;
 	}
   

@@ -14,8 +14,8 @@ export default new Vuex.Store({
     config: {
 			url_update: "http://globein-api/MedEd/", //https://bhoward3.com/electron/GlobeIN/MedEd/
 			url_api: "//bhoward3.com/electron/GlobeIN/api", //https://bhoward3.com/electron/GlobeIN/api     http://globein-api
-			width: 2048,
-			height: 1536,
+			width: 2732,
+			height: 2048,
 			back_inactivity_time: 180,
 			back_autoexit_time: 30,
 			screensaver_time: 30,

@@ -3,33 +3,39 @@
 
 		<div class="popheader">
 			<div class="iconstick">
-				<img src="/img/bigicon_learn.png" width="177">
+				<img src="/img/bigicon_learn.png" width="235">
 				<div>E-LEARNING</div>
 				<img class="commingsoon" src="/img/coming_soon_sm.png" alt="">
 				<!-- <div>VIDEOS <br>& PODCASTS</div> -->
 			</div>
 			<div class="title">
-				A range of educational resources for healthcare professionals involved in <br>managing patients with haemoglobinopathies, covering key topics of <br>interest and practical elements of patient care
-				<div class="clockbox">
-					<img src="/img/icon_clock.svg" width="50" />
-					Stay tuned for the upcoming resources
+				A range of educational resources for healthcare professionals involved <br>in managing patients with haemoglobinopathies, covering key topics <br>of interest and practical elements of patient care
+				
+				<div class="infoTop">
+					<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.58 52.58">
+						<g id="Layer_1-2" data-name="Layer 1">
+							<path d="m26.29,0C11.79,0,0,11.79,0,26.29s11.79,26.29,26.29,26.29,26.29-11.79,26.29-26.29S40.78,0,26.29,0Zm.73,7.81c3.2,0,5.81,2.61,5.81,5.81s-2.61,5.81-5.81,5.81-5.81-2.61-5.81-5.81,2.61-5.81,5.81-5.81Zm7.95,34.78c-.46.49-.95.59-1.28.59h-13.34c-.33,0-.83-.1-1.28-.59-.35-.38-.53-.88-.53-1.47s.17-1.12.52-1.51c.46-.52.96-.63,1.3-.63h1.52v-11.12h-1.52c-.33,0-.83-.1-1.28-.59-.35-.38-.53-.88-.53-1.48s.17-1.11.52-1.51c.46-.52.96-.63,1.3-.63h11.18c.36,0,.65.29.65.65v14.68h1.51c.34,0,.84.11,1.3.63.35.39.52.9.52,1.51s-.18,1.09-.54,1.47Z" style="fill: #08a9b7;"/>
+						</g>
+					</svg>
+					Please contact a Vertex medical representative to find out more about the programme and events
 				</div>
+
 			</div>
 		</div>
 
 		<div class="threeboxes">
 			<div>
-				<div class="circle"><img src="/img/bigicon_module.png" width="188"/></div>
+				<div class="circle"><img src="/img/bigicon_module.png" width="250"/></div>
 				<div class="title">E-LEARNING <br>MODULES</div>
 				<div>Bite-size modules to enhance <br>knowledge and understanding of the <br>fundamental topics in sickle cell <br>disease and β-thalassaemia</div>
 			</div>
 			<div>
-				<div class="circle"><img src="/img/bigicon_studies.png" width="176"/></div>
+				<div class="circle"><img src="/img/bigicon_studies.png" width="240"/></div>
 				<div class="title">INTERACTIVE PATIENT <br>CASE STUDIES</div>
-				<div>Interactive patient cases <br>demonstrating a range of clinical <br>complications experienced by <br>paediatric and adult patients with <br>sickle cell disease and β-thalassaemia</div>
+				<div>Interactive patient cases studies <br>demonstrating a range of clinical <br>complications experienced by <br>paediatric and adult patients with <br>sickle cell disease</div>
 			</div>
 			<div>
-				<div class="circle"><img src="/img/bigicon_resources.png" width="164"/></div>
+				<div class="circle"><img src="/img/bigicon_resources.png" width="217"/></div>
 				<div class="title">ADDITIONAL <br>RESOURCES</div>
 				<div>Further resources to support your <br>educational learning needs in sickle <br>cell disease and β-thalassaemia</div>
 			</div>
@@ -120,18 +126,25 @@ export default {
 .popup-learning {
 	
 	.popheader {
-		
-		.clockbox {
-			background-color: #08a9b7;
-			color: #fff;
-			border-radius: 25px;
-			display: flex;
+		.infoTop {
+			display: inline-flex;
 			align-items: center;
-			justify-content: space-evenly;
-			width: 580px;
-			height: 91px;
-			margin-top: 30px;
-			font-size: 27px;
+			justify-content: flex-start;
+			background-color: #08a9b7;
+    	color: #fff;
+			font-family: "SourceSansPro-Semibold";
+			font-size: 25px;
+			padding: 20px 40px;
+			border-radius: 15px;
+			margin-top: 15px;
+			svg {
+				margin-left: -80px;
+    		margin-right: 20px;
+				width: 60px;
+				height: 60px;
+				border: 6px solid #fff;
+				border-radius: 50%;
+			}
 		}
 		
 		.iconstick {
@@ -141,7 +154,7 @@ export default {
 				position: absolute;
 				top: 0;
 				right: 0;
-				width: 190px;
+				width: 250px;
 			}
 		}
 		.title {
@@ -150,20 +163,20 @@ export default {
 	}
 
 	.threeboxes {
-		margin: 80px 60px 0;
-		height: 740px;
+		margin: 150px 60px 0;
+		height: 980px;
 		display: flex;
 		// justify-content: space-between;
-		font-size: 28px;
-		line-height: 36px;
+		font-size: 37px;
+		line-height: 47px;
 		color: #fff;
 		text-align: center;
-		gap: 30px;
+		gap: 40px;
 
 		> div {
 			flex: 1 0 0%;
-			padding: 70px 30px;
-			border-radius: 25px;
+			padding: 100px 30px;
+			border-radius: 70px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -182,8 +195,8 @@ export default {
 			}
 		}
 		.circle {
-			width: 210px;
-			height: 210px;
+			width: 280px;
+			height: 280px;
 			border-radius: 50%;
 			background-color: rgba(255, 255, 255, 0.2);
 			flex: 0 0 auto;
@@ -193,10 +206,10 @@ export default {
 		}
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 51px;
+			font-size: 67px;
 			line-height: 1;
-			margin-top: 50px;
-			margin-bottom: 55px;
+			margin-top: 70px;
+			margin-bottom: 45px;
 		}
 	}
 

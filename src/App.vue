@@ -201,7 +201,7 @@ export default {
        */
       if (this.$router.currentRoute.value.name != "attract" && this.$router.currentRoute.value.name != "website") {
         console.log("resetApp()");
-        this.$router.push({ name: "attract" }).catch(err => { });
+        // this.$router.push({ name: "attract" }).catch(err => { });
       }
     },
     

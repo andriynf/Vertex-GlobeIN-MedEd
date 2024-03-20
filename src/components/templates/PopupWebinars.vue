@@ -3,12 +3,12 @@
 
 		<div class="popheader">
 			<div class="iconstick">
-				<img src="/img/bigicon_monitor.png" width="150">
+				<img src="/img/bigicon_monitor.png" width="200">
 				<div>WEBINARS</div>
 				<!-- <div>VIDEOS <br>& PODCASTS</div> -->
 			</div>
 			<div class="title">
-				60-minute interactive educational webinars with expert faculty, including interactive peer-to-peer scientific exchange and Q&A. The GlobeINteractive webinar series is <span class="accent">accredited by the CPD Certification Service</span>. All webinars are recorded and made available on-demand via the GlobeIN website.
+				60-minute interactive educational webinars with expert faculty, including interactive peer-to-peer scientific exchange and Q&A. The GlobeINteractive webinar series is <span class="accent">accredited by the CPD Certification Service</span>. All webinars <br>are recorded and made available on-demand via the GlobeIN website in English, French, German and Italian.
 			</div>
 		</div>
 
@@ -16,35 +16,42 @@
 			<div class="title">AVAILABLE ON-DEMAND WEBINARS</div>
 
 			<div class="row panel-container">
-				<div class="boxcol">
+				<div class="boxcol" style="background-color: #08a9b7;">
 					<img src="/img/webinar_b1.png"/>
-					<div class="panel_title">SPOTLIGHT ON <br>SICKLE CELL DISEASE: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
+					<div class="panel_title">SPOTLIGHT ON SICKLE CELL DISEASE: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
 				</div>
 				<div class="boxcol">
 					<img src="/img/webinar_b2.png"/>
 					<div class="panel_title">TALKING <br>β-THALASSAEMIA: PATHOLOGY AND CLINICAL COMPLICATIONS</div>
 				</div>
-				<div class="boxcol">
+				<div class="boxcol" style="background-color: #51267d;">
 					<img src="/img/webinar_b3.png"/>
-					<div class="panel_title">SPOTLIGHT ON <br>SICKLE CELL DISEASE: UNDERSTANDING THE THERAPEUTIC LANDSCAPE</div>
+					<div class="panel_title">HOT TOPICS IN HAEMOGLOBINOPATHIES: THE TRANSPLANT JOURNEY <br><br>PART 1: <br>PRE-TRANSPLANTATION</div>
+				</div>
+				<div class="boxcol" style="background-color: #08a9b7;">
+					<img src="/img/webinar_b4.png"/>
+					<div class="panel_title">SPOTLIGHT ON SICKLE CELL DISEASE: UNDERSTANDING THE THERAPEUTIC LANDSCAPE</div>
 				</div>
 				<div class="boxcol">
-					<img src="/img/webinar_b4.png"/>
+					<img src="/img/webinar_b5.png"/>
 					<div class="panel_title">TALKING <br>β-THALASSAEMIA: UNDERSTANDING <br>THE THERAPEUTIC LANDSCAPE</div>
 				</div>
+				<div class="boxcol" style="background-color: #51267d;">
+					<img src="/img/webinar_b6.png"/>
+					<div class="panel_title">HOT TOPICS IN HAEMOGLOBINOPATHIES: THE TRANSPLANT JOURNEY <br><br>PART 2: <br>POST-TRANSPLANTATION</div>
+				</div>
+
+				<div class="boxcol50">
+					<div>Scan the QR code to access the on-demand webinars</div>
+					<img src="/img/qr_webinar.png" width="180" style="margin-left: 40px;" >
+				</div>
+				<div class="boxcol50">
+					<info-red-note>Please contact a Vertex medical representative to find out <br>more about the programme and events</info-red-note>
+				</div>
 			</div>
 
 		</div>
 
-		<div class="upcomming">
-			<img src="/img/icon_clock.svg" class="roll-in-right" width="140" alt="">
-			<div class="title">The GlobeINteractive webinar series, videos, and podcasts are available in several different languages</div>
-			<info-red-note>Please contact a Vertex medical <br>representative to find out more about <br>the programme and events</info-red-note>
-			<div class="qrcode">
-				<div>Scan the QR code to access the <br>on-demand webinars</div>
-				<img src="/img/qr_webinar.png" >
-			</div>
-		</div>
 
 	</div>
 </template>
@@ -131,27 +138,27 @@ export default {
 	
 	.speakers {
 		position: absolute;
-		top: 320px;
-    left: 55px;
-		width: 1415px;
-		height: 848px;
-		// background-color: rgba(255, 255, 255, 1.0);
+		top: 420px;
+    left: 65px;
+		width: 2425px;
+		height: 1175px;
 		background-color: #fff;
+		// background-color: rgba(255, 255, 255, 0.5);
 		border: 3px solid #d06578;
 		border-radius: 35px;
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 35px;
+			font-size: 46px;
 			color: #d06578;
 			text-align: center;
-    	margin-top: 50px;
+    	margin-top: 35px;
 		}
 		.panel-container {
-			margin: 45px 35px 0;
+			margin: 35px 50px 0;
 			justify-content: space-between;
 			.boxcol {
-				width: 650px;
-				height: 310px;
+				width: 750px;
+				height: 350px;
 				padding: 0;
 				background-color: #d06578;
 				color: #fff;
@@ -161,8 +168,8 @@ export default {
 				display: flex;
 				align-items: flex-start;
 				img {
-					width: 285px;
-					margin-left: 35px;
+					width: 332px;
+					margin-left: 45px;
 					margin-right: 20px;
 				}
 
@@ -175,72 +182,58 @@ export default {
 				}
 			}
 
+			.boxcol50 {
+				width: 1141px;
+				height: 240px;
+				background-color: #dadada;
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0;
+				font-size: 30px;
+				font-family: 'SourceSansPro-Semibold';
+
+				.info-red-note {
+					animation-name: unset;
+					margin-top: 35px;
+					font-size: 24px !important;
+					line-height: 31px;
+					fill: #fff;
+					color: unset;
+
+					.info-content {
+						background-color: rgba(255, 255, 255, 0.9);
+						padding: 20px 50px;
+						text-align: center;
+						border-color: transparent;
+					}
+					.info-icon {
+						top: -45px;
+						bottom: unset;
+						left: 0;
+						right: 0;
+						border-color: #dadada;
+					}
+				}
+				
+			}
+
 		}
 
 		.panel_title {
 			font-family: "Arial";
-			font-size: 27px;
+			font-size: 25px;
 			font-weight: bold;
 			line-height: 33px;
 			color: #fff;
+			padding-right: 30px;
 			// text-align: center;
 		}
-		
 	
 	}
 
-	.upcomming {
-		position: absolute;
-		top: 320px;
-    left: 1510px;
-		width: 380px;
-		height: 848px;
-		background-color: #d06578;
-		border-radius: 35px;
-		text-align: center;
-		padding-top: 25px;
-		// opacity: 0.5;
-		overflow: hidden;
-		.title {
-			font-family: 'SourceSansPro-Semibold';
-			font-size: 24px;
-			line-height: 28px;
-			margin-top: 35px;
-			color: #fff;
-    	padding: 0 40px;
-		}
-		.info-red-note {
-			animation-name: unset;
-			margin-top: 55px;
-			font-size: 18px;
-			line-height: 23px;
-			fill: #fff;
-			.info-content {
-				background-color: rgba(255, 255, 255, 0.9);
-				padding: 10px 20px;
-			}
-			.info-icon {
-				top: -40px;
-				bottom: unset;
-				left: 0;
-				right: 0;
-				border-color: #d06578;
-			}
-		}
-		.qrcode {
-			font-family: 'SourceSansPro-Semibold';
-			font-size: 24px;
-			line-height: 28px;
-			letter-spacing: -1px;
-			margin-top: 60px;
-			text-align: center;
-			color: #fff;
-			img {
-				margin-top: 25px;
-				width: 195px;
-			}
-		}
-	}
+
 
 	/////////////////////////
 	video {

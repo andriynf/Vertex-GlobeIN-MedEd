@@ -6,7 +6,7 @@
 				<div class="bottommenu slide-in-blurred-bottom">
 					<button class="btnHome" @click="onHomeClick()">
 						<div>
-							<svg style="width: 45px; height: 43px;" viewBox="0 0 44.68 43.25">
+							<svg style="width: 56px; height: 54px;" viewBox="0 0 44.68 43.25">
 								<polygon points="43.68 22.34 22.34 1 1 22.34 7.25 22.34 7.25 42.25 37.43 42.25 37.43 22.34 43.68 22.34" style="fill: none; stroke: #51267d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
 							</svg>
 							<span>HOME</span>
@@ -14,7 +14,7 @@
 					</button>
 					<button class="btnBack" @click="onBackClick()">
 						<div>
-							<svg style="width: 28px; height: 53px;" viewBox="0 0 27.67 53.34">
+							<svg style="width: 34px; height: 68px;" viewBox="0 0 27.67 53.34">
 								<polyline points="26.67 1 1 26.67 26.67 52.34" style="fill: none; stroke: #51267d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
 							</svg>
 							<span>Back</span>
@@ -23,7 +23,7 @@
 					<button class="btnNext" @click="onNextClick()">
 						<div>
 							<span>Next</span>
-							<svg style="width: 28px; height: 53px;" viewBox="0 0 27.67 53.34">
+							<svg style="width: 34px; height: 68px;" viewBox="0 0 27.67 53.34">
 								<polyline points="1 1 26.67 26.67 1 52.34" style="fill: none; stroke: #51267d; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
 							</svg>
 						</div>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<img class="logoimg" src="/img/vertex_logo_color.svg" width="179" alt="">
+				<img class="logoimg" src="/img/vertex_logo_color.svg" width="237" alt="">
 			</div>
 		</div>
 	</div>
@@ -93,6 +93,8 @@
 
 <style lang="scss">
 .footerarea {
+	margin-top: 85px;
+
 	.bottommenu {
 		display: flex;
 		align-items: center;
@@ -104,17 +106,17 @@
 			color: #51267d;
 			background-color: transparent;
 			border-radius: 16px;
-			height: 90px;
-			width: 183px;
+			height: 120px;
+			width: 240px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 30px;
+			font-size: 39px;
 			line-height: 1;
-			margin: 28px 15px 0;
+			margin: 35px 20px 0;
 			> div {
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				gap: 15px;
+				gap: 25px;
 				// pointer-events: none;
 			}
 			&:hover {
@@ -124,7 +126,7 @@
 	}
 	.logoimg {
 		margin-left: auto;
-		margin-right: 100px;
+		margin-right: 140px;
 		display: block;
 	}
 }

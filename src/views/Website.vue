@@ -13,7 +13,7 @@
 
 				<div v-else>
 					<div class="pagetitle">
-						<img src="/img/globein_overview.png" width="786">
+						<img src="/img/globein_overview.png" width="1043">
 						<div class="headline">
 							Dedicated to providing tailored medical education resources for haemoglobinopathies to support you, your patients,
 							<br>and the multidisciplinary care team. Discover a range of resources covering pathophysiology, clinical complications,
@@ -24,14 +24,14 @@
 					<div class="row gx-0" style="margin-top: 45px; justify-content: space-between;">
 						<div class="col-auto">
 							<div class="imggray animate__animated animate__fadeInRight">
-								<img src="/img/globweb.png" width="465">
+								<img src="/img/globweb.png" width="615">
 							</div>
 						</div>
 						<div class="col-auto">
 							<div class="textgray animate__animated animate__fadeInRight">
 								<ul>
 									<li>The <strong>GlobeIN</strong> website hosts on-demand resources including webinar recordings, videos, and podcasts, with additional resources including e-learning coming soon!</li>
-									<li>Resources will be available in <strong>multiple languages</strong></li>
+									<li>Resources are available in <strong>English, French, German and Italian</strong></li>
 								</ul>
 							</div>
 						</div>
@@ -40,11 +40,11 @@
 					<h3 class="animate__animated animate__fadeIn animate__delay-1s">To access the GlobeIN website and learn more about the programme, scan the QR code below</h3>
 
 					<div class="animate__animated animate__fadeIn animate__delay-1s">
-						<info-red-note class="blackinfotext">This site is for healthcare professionals only. *By registering and/or entering this site, you confirm that you are a healthcare professional.*</info-red-note>
+						<info-red-note class="blackinfotext">This site is for healthcare professionals only. *By entering this site, you confirm that you are a healthcare professional.*</info-red-note>
 
 						<div class="footnote">
-							*A Healthcare Professional (HCP) is defined as any person that is a member of the medical, dental, pharmacy or nursing professions or any other person who, 
-							<br>in the course of his/her professional activities, may prescribe, purchase, supply, recommend or administer a Medicinal Product.
+							*A Healthcare Professional (HCP) is defined as any person that is a member of the medical, dental, pharmacy or nursing professions or any other
+							<br>person who, in the course of his/her professional activities, may prescribe, purchase, supply, recommend or administer a Medicinal Product.
 						</div>
 					</div>
 				</div>
@@ -120,9 +120,8 @@ export default {
 @import '../assets/scss/_variables';
 
 .globeinwebsite {
-  // background-image: url('/img/p1_Page_12.jpg');
-	// background-size: 100% 100%;
-  // .content-box {
+  // background-image: url('/img/temp9.jpg');
+	// .content-box {
 	// 	background-color: rgb(255, 255, 255, 0.5);
 	// }
 
@@ -137,7 +136,7 @@ export default {
 		}
 	}
 	.bodyarea {
-		width: 1840px;
+		width: 2430px;
     margin: auto;
 
 		.pagetitle {
@@ -145,7 +144,7 @@ export default {
 				background-color: #08a9b7;
 				color: #fff !important;
 				border-radius: 25px;
-				height: 175px;
+				height: 235px;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -153,8 +152,8 @@ export default {
 		}
 
 		.imggray {
-			width: 695px;
-			height: 368px;
+			width: 921px;
+			height: 488px;
 			border-radius: 15px;
 			background-color: rgba(135, 135, 135, 0.12);
 			display: flex;
@@ -162,12 +161,12 @@ export default {
 			align-items: center;
 		}
 		.textgray {
-			width: 1100px;
-			height: 368px;
+			width: 1470px;
+			height: 500px;
 			border-radius: 15px;
 			border: 2px solid rgba(135, 135, 135, 0.45);
 			color: #51267d;
-			font-size: 37px;
+			font-size: 49px;
 			line-height: 1.25;
 			display: flex;
     	align-items: center;
@@ -177,7 +176,7 @@ export default {
     		margin-top: 20px;
 				margin-bottom: 0;
 				margin-left: 60px;
-				margin-right: 70px;
+				margin-right: 60px;
 				li::before {
 					content: "•";
 					color: #08a9b7;
@@ -193,20 +192,20 @@ export default {
 
 		h3 {
 			font-weight: bold;
-			font-size: 40px;
+			font-size: 53px;
 			color: #08a9b7;
 			text-align: center;
-    	margin-top: 60px;
+    	margin-top: 80px;
 		}
 	}
 
 
 	
 	.blackinfotext {
-		margin-top: 30px;
+		margin-top: 40px;
 		.info-content {
-	    // padding: 20px 70px;
-			font-size: 27px;
+	    padding: 15px 120px;
+			font-size: 36px;
 			color: #3c3c3b !important;
 			border-color: #3c3c3b;
 		}
@@ -216,11 +215,11 @@ export default {
 	}
 
 	.footnote {
-		font-size: 21px;
+		font-size: 29px;
 		line-height: 1.25;
 		color: #3c3c3b;
 		text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 	}
   
 }

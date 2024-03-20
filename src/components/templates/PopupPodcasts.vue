@@ -3,7 +3,7 @@
 
 		<div class="popheader">
 			<div class="iconstick">
-				<img src="/img/bigicon_cast.png" width="205">
+				<img src="/img/bigicon_cast.png" width="272">
 				<div>VIDEOS <br>& PODCASTS</div>
 			</div>
 			<div v-if="showPlayer==false" class="title">
@@ -13,17 +13,17 @@
 
 		<div v-if="showPlayer==false" class="threeboxes">
 			<div>
-				<div class="topimg"><img src="/img/podcast_b1.png"/></div>
-				<div class="title">TALKING β-THALASSAEMIA: <br>CLINICAL COMPLICATIONS</div>
-				<div class="botbut">
-					<global-button color="#fff" @click="openVideoPage(1)">Click here to watch a teaser <br>of Dr Emma Drasar’s video</global-button>
-				</div>
-			</div>
-			<div>
 				<div class="topimg"><img src="/img/podcast_b2.png"/></div>
 				<div class="title">SPOTLIGHT ON SICKLE CELL DISEASE: <br>CLINICAL COMPLICATIONS</div>
 				<div class="botbut">
 					<global-button color="#fff" @click="openVideoPage(0)">Click here to watch a teaser of <br>Dr Rachel Kesse-Adu’s video</global-button>
+				</div>
+			</div>
+			<div>
+				<div class="topimg"><img src="/img/podcast_b1.png"/></div>
+				<div class="title">TALKING β-THALASSAEMIA: <br>CLINICAL COMPLICATIONS</div>
+				<div class="botbut">
+					<global-button color="#fff" @click="openVideoPage(1)">Click here to watch a teaser <br>of Dr Emma Drasar’s video</global-button>
 				</div>
 			</div>
 			<div>
@@ -71,8 +71,8 @@
 					<global-button color1="#fff" @click="onNextVideoClick()">Next</global-button>
 				</div>
 				<div class="headphones">
-					<div style="width: 125px;">
-						<div style="width: 68px; margin: auto;">
+					<div style="width: 160px;">
+						<div style="width: 88px; margin: auto;">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 99 84" style="enable-background:new 0 0 99 84;" xml:space="preserve">
 							<path style="fill:#B2B2B2;" d="M99,74.1c-0.5,2.1-1.2,4-2.6,5.6c-1.9,2.1-4.1,3.4-7,3.5c-2.8,0.1-5.7,0-8.6,0c0-0.4,0-0.8,0-1.2
 							c0-12.7,0-25.4,0-38.2c0-6.2-1.2-12.2-4.6-17.6c-4.5-7.4-10.9-12.3-19.3-14.3c-10.6-2.5-20-0.1-28.2,7.1
@@ -143,16 +143,7 @@ export default {
 			this.showPlayer = true;
 		}
   },
-  mounted(){
-    // const fs = require("fs");
-    // if (fs.existsSync(this.video_src)) {
-    // }else{
-    //   this.$notify({
-    //     type: 'error',
-    //     title: this.properties.media_url
-    //   });
-    // }
-  },
+  mounted(){},
   beforeDestroy: function () {
     this.$store.commit("set_video_is_playing", false);
     clearTimeout(this.innerTimer);
@@ -237,6 +228,7 @@ export default {
 	.popheader {
 		.iconstick {
 			background-color: #51267d;
+			padding-left: 40px;
 		}
 		.title {
 			color: #51267d;
@@ -244,42 +236,45 @@ export default {
 	}
 
 	.threeboxes {
-		margin: 70px 60px 0;
-		height: 788px;
+		margin: 90px 70px 0;
+		height: 1040px;
 		display: flex;
-		gap: 30px;
+		gap: 35px;
 		
 		> div {
 			flex: 1 0 0%;
 			border-radius: 20px;
 			border: 1px solid #51267d;
 			background-color:#51267d;// rgba(255, 255, 255, 1);
+			// background-color: transparent;
 			display: flex;
 			flex-direction: column;
 			// align-items: center;
-			padding-left: 40px;
-			padding-top: 60px;
+			padding: 90px 50px 0;
 			justify-content: space-between;
 			animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
 			// background-color: #08a9b799;
 			
 			&:nth-child(1){
 				animation-delay: .3s;
+				background-color: #08a9b7;
 			}
 			&:nth-child(2){
 				animation-delay: .6s;
+				background-color: #d06578;
 			}
 			&:nth-child(3){
 				animation-delay: .9s;
 			}
 		}
 		.topimg img {
-			width: 520px;
+			// width: 520px;
+			width: 100%;
 		}
 		.title {
 			font-weight: bold;
-			font-size: 27px;
-			line-height: 33px;
+			font-size: 40px;
+			line-height: 43px;
 			color: #fff;
 			// text-align: center;
 			// height: 260px;
@@ -288,15 +283,16 @@ export default {
 			justify-content: flex-end;
 		}
 		.botbut {
-			height: 260px;
+			height: 340px;
 			.glob-button {
-				height: 96px;
-				line-height: 1.25;
-				background-color: rgba(81, 38, 125, 0.9);
+				height: 127px;
+				line-height: 1.4;
+				// background-color: rgba(81, 38, 125, 0.9);
+				background-color: transparent;
 				text-align: right;
 				// letter-spacing: -1px;
 				svg {
-					padding: 25px 25px;
+					padding: 25px 35px;
 				}
 			}
 		}
@@ -312,19 +308,19 @@ export default {
 		display: flex;
 
 		.playmenu {
-			margin-top: 325px;
+			margin-top: 420px;
 			
 			.menuitem {
-				width: 690px;
-				height: 155px;
-				margin-bottom: 25px;
+				width: 915px;
+				height: 205px;
+				margin-bottom: 35px;
 				display: flex;
 				align-items: center;
 				justify-content: flex-end;
 				gap: 30px;
 				border: 3px solid #d06578;
 				border-radius: 0 30px 30px 0;
-				padding-right: 40px;
+				padding-right: 60px;
 				background-color: transparent;
 				// background-color: #51267d00;
 				transition: all 0.3s ease;
@@ -332,16 +328,16 @@ export default {
 				
 				.label {
 					font-family: 'SourceSansPro-Semibold';
-					font-size: 27px;
-					line-height: 35px;
+					font-size: 36px;
+					line-height: 47px;
 					// letter-spacing: -2px;
 					color: #d06578;
 					text-align: right;
 					transition: all 0.3s ease;
 				}
 				.arrow {
-					width: 26px;
-					height: 51px;
+					width: 40px;
+					height: 75px;
 					stroke: #d06578;
 					transition: all 0.3s ease;
 				}
@@ -349,60 +345,69 @@ export default {
 				&.active {
 					border: transparent;
 					background-color: #51267d;
+
 					.label,
 					.arrow {
 						color: #fff;
 						stroke: #fff;
 					}
 				}
+
+				&:nth-child(1).active{
+					background-color: #08a9b7;
+				}
+				&:nth-child(2).active{
+					background-color: #d06578;
+				}
 			}
 		}
 
 		.playcontent {
 			position: relative;
-			padding-left: 85px;
+			padding-left: 105px;
 			font-family: 'SourceSansPro-Semibold';
 			.title {
-				font-size: 53px;
-				line-height: 66px;
+				font-size: 70px;
+				line-height: 87px;
 				color: #51267d;
-				margin-top: 95px;
+				margin-top: 125px;
 			}
 			.videocontainer {
-				width: 1100px;
-				height: 620px;
+				width: 1460px;
+				height: 820px;
 				margin-top: 25px;
 				border: 1px solid #000;
 			}
 			.infotext {
-				font-size: 26px;
-				line-height: 44px;
-				margin-top: 30px;
+				font-size: 35px;
+				line-height: 58px;
+				margin-top: 50px;
 			}
 
 			.bottomButtons {
 				position: absolute;
-				bottom: 80px;
+				bottom: 105px;
 				display: flex;
-				gap: 30px;
+				gap: 50px;
 				.glob-button {
-					font-size: 28px;
-					height: 87px;
+					font-size: 38px;
+					height: 118px;
 
 				}
 			}
 			.headphones {
 				position: absolute;
-				bottom: 80px;
-				left: 510px;
-				width: 680px;
-				height: 87px;
+				bottom: 105px;
+				left: 680px;
+				width: 890px;
+				height: 130px;
 				border: 2px solid #c6c6c6;
 				border-radius: 20px;
 				display: flex;
 				align-items: center;
 				font-family: 'SourceSansPro-Semibold';
-				font-size: 24px;
+				font-size: 31px;
+				line-height: 38px;
 				color: #9d9d9c;
 			}
 		}

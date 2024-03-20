@@ -5,8 +5,8 @@
 
 			<div class="bodyarea">
 
-				<div class="pagetitle">
-					<img src="/img/globein_teractive.png" width="1286">
+				<div class="pagetitle" style="padding-top: 150px;">
+					<img src="/img/globein_teractive.png" width="1706">
 					<div class="headline">
 						Providing a wide range of educational resources for the multidisciplinary team involved in managing patients 
 						<br>with haemoglobinopathies through our dedicated GlobeIN website. The GlobeIN website houses a multitude of 
@@ -14,7 +14,7 @@
 					</div>
 				</div>
 
-				<info-red-note style="margin-top: 60px;">Click below for an overview of the components and scan the QR code to explore the GlobeIN website</info-red-note>
+				<info-red-note style="margin-top: 50px;">Click below for an overview of the components and scan the QR code to explore the GlobeIN website</info-red-note>
 
 				<div class="threeboxes">
 					<div>
@@ -108,28 +108,28 @@ export default {
 @import '../assets/scss/_variables';
 
 .interactive {
-  // background-image: url('/img/p1_Page_03.jpg');
-	// background-size: 100% 100%;
-	// .content-box {
+  // background-image: url('/img/temp3.jpg');
+  // .content-box {
 	// 	background-color: transparent;
 	// }
 
 	.headline {
-		font-size: 38px !important;
+		font-size: 50px !important;
+		margin-top: 20px !important;
+		line-height: 1.4 !important;
 	}
 
 	.threeboxes {
-		margin: 80px 60px 0;
-		height: 440px;
+		margin: 100px 90px 0;
+		height: 580px;
 		display: flex;
 		justify-content: space-between;
-		gap: 25px;
+		gap: 40px;
 		> div {
 			flex: 1 0 0%;
 			// margin: 0 25px;
 			border-radius: 25px;
-    	padding: 20px;
-
+    	padding: 40px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -153,24 +153,24 @@ export default {
 			background-image: url("/img/coming_soon.png");
 			background-repeat: no-repeat;
     	background-position: top right;
-			background-size: 200px;
+			background-size: 290px;
 		}
 		.title {
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 43px;
+			font-size: 57px;
 			color: #fff;
 			text-align: center;
 		}
 		.circle {
-			width: 165px;
-			height: 165px;
+			width: 220px;
+			height: 220px;
 			border-radius: 50%;
 			background-color: rgba(255, 255, 255, 0.2);
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			img {
-				height: 125px;
+				height: 170px;
 			}
 		}
 		.glob-button {

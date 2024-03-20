@@ -28,7 +28,7 @@
 	display: flex;
 	justify-content: center;
 	font-family: 'SourceSansPro-Semibold';
-	font-size: 35px;
+	font-size: 47px;
 	fill: #d06578;
 	color: #d06578;
 	
@@ -37,15 +37,15 @@
 		top: 0;
 		bottom: 0;
 		margin: auto;
-		left: -30px;
-		width: 50px;
+		left: -40px;
+    width: 60px;
 		border: 8px solid #fff;
 		border-radius: 50%;
 	}
 
 	.info-content {
 		position: relative;
-		padding: 12px 50px;
+		padding: 15px 60px;
 		border-radius: 20px;
 		border: 2px solid #d06578;
 	}

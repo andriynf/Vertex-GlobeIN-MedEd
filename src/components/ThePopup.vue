@@ -16,7 +16,7 @@
 				<div class="bottomLine"></div>
 
         <!-- close button -->
-        <div class="btn-close-popup" @click="closeClick()"><img src="/img/icon_close.svg" width="41" />Close</div>
+        <div class="btn-close-popup" @click="closeClick()"><img src="/img/icon_close.svg" width="55" />Close</div>
 
       </div>
     </div>
@@ -157,7 +157,7 @@ export default {
 
 <style lang="scss">
 .the-popup {
-	// background-image: url('/img/p1_Page_06.jpg');
+	// background-image: url('/img/temp6.jpg');
 	// background-size: 100% 100%;
 	// background-image: url('/img/temp10.jpg');
   background-color: rgba(29, 29, 27, 0.85);
@@ -169,9 +169,10 @@ export default {
 		justify-content: center;
 	}
   .modal-content {
-		// margin-top: 25px; // REMOVE IN PROD
-		width: 1940px;
-		height: 1250px !important;
+		margin-top: 30px; // REMOVE IN PROD
+		width: 2575px;
+		height: 1655px !important;
+		border-radius: 10px;
     // background-color: transparent;
     background-color: rgba(255, 255, 255, 0.95);
     // background-color: rgba(255, 255, 255, 0.5); // REMOVE IN PROD
@@ -188,15 +189,15 @@ export default {
 
 	.btn-close-popup {
 		position: absolute;
-		top: -10px;
+		top: -20px;
     right: -23px;
-		width: 150px;
-		height: 72px;
+		width: 200px;
+		height: 96px;
 		background-color: #51267d;
 		border-radius: 16px;
 		border: 2px solid #fff;
 		font-family: 'SourceSansPro-Semibold';
-		font-size: 24px;
+		font-size: 31px;
 		color: #fff;
 		display: flex;
     align-items: center;
@@ -214,7 +215,8 @@ export default {
 
 	&.cid-3 {
 		.bottomLine {
-			background-color: #d06578;
+			background-color: #08a9b7;
+			// background-color: #d06578;
 		}
 	}
 
@@ -222,21 +224,21 @@ export default {
 	/* POPUP CHILD CONTENT */
 
 	.popheader {
-		padding-top: 60px;
+		padding-top: 75px;
 		display: flex;
     align-items: center;
 		overflow: hidden;
 		
 		.iconstick {
-			height: 200px;
-			width: 730px;
+			width: 967px;
+			height: 265px;
 			display: flex;
 			flex-shrink: 0;
 			align-items: center;
 			align-self: flex-start;
-			padding-left: 60px;
+			padding-left: 75px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 66px;
+			font-size: 87px;
 			line-height: 1;
 			color: #fff;
 			gap: 40px;
@@ -245,11 +247,11 @@ export default {
 			animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
 		}
 		.title {
-			margin-left: 60px;
-			padding-right: 50px;
+			margin-left: 75px;
+			padding-right: 100px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 32px;
-			line-height: 41px;
+			font-size: 42px;
+			line-height: 54px;
 			color: #1d1d1b;
 			animation:fade-in-bck .6s cubic-bezier(.39,.575,.565,1.000) both;
 			.accent {

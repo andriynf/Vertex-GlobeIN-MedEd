@@ -5,27 +5,29 @@
 
 				<div class="pageheader">
 					<div class="iconstick">
-						<img src="/img/bigicon_cast.png" width="198">
+						<img src="/img/bigicon_cast.png" width="263">
 						<div>VIDEOS <br>& PODCASTS</div>
 					</div>
-					<img class="title" src="/img/globein_teractive.png" width="1008">
+					<div class="title">
+						Video and podcast content hosted by leading international experts, <br>focused on key topics of clinical interest in haemoglobinopathies. <br>See below for available content:
+					</div>
 				</div>
 
-				<info-red-note class="topAlert">Click below to watch the teaser videos, and scan the QR code to access the full videos on the GlobeIN website</info-red-note>
+				<info-red-note class="topAlert">Click below to watch the teaser videos or scan the QR code to access the full videos on the GlobeIN website</info-red-note>
 
 				<div class="threeboxes">
-					<div>
-						<div class="topimg"><img src="/img/podcast_b1.png"/></div>
-						<div class="title">TALKING β-THALASSAEMIA: <br>CLINICAL COMPLICATIONS</div>
-						<div class="botbut">
-							<global-button color="#fff" @click="openVideoPage(1)">Click here to watch a teaser <br>of Dr Emma Drasar’s video</global-button>
-						</div>
-					</div>
 					<div>
 						<div class="topimg"><img src="/img/podcast_b2.png"/></div>
 						<div class="title">SPOTLIGHT ON SICKLE CELL DISEASE: <br>CLINICAL COMPLICATIONS</div>
 						<div class="botbut">
 							<global-button color="#fff" @click="openVideoPage(0)">Click here to watch a teaser of <br>Dr Rachel Kesse-Adu’s video</global-button>
+						</div>
+					</div>
+					<div>
+						<div class="topimg"><img src="/img/podcast_b1.png"/></div>
+						<div class="title">TALKING β-THALASSAEMIA: <br>CLINICAL COMPLICATIONS</div>
+						<div class="botbut">
+							<global-button color="#fff" @click="openVideoPage(1)">Click here to watch a teaser <br>of Dr Emma Drasar’s video</global-button>
 						</div>
 					</div>
 					<div>
@@ -96,26 +98,26 @@ export default {
 @import '../assets/scss/_variables';
 
 .podcasts {
-  // background-image: url('/img/p1_Page_07.jpg');
-	// background-size: 100% 100%;
-  // .content-box {
+  // background-image: url('/img/temp7.jpg');
+	// .content-box {
 	// 	background-color: rgb(255, 255, 255, 0.5);
 	// }
 	
 	.pageheader {
-		padding-top: 40px;
+		padding-top: 60px;
 		display: flex;
     align-items: center;
 		overflow: hidden;
 		
 		.iconstick {
-			height: 200px;
-			width: 730px;
+			height: 250px;
+			width: 940px;
 			display: flex;
+			flex-shrink: 0;
 			align-items: center;
-			padding-left: 50px;
+			padding-left: 45px;
 			font-family: 'SourceSansPro-Semibold';
-			font-size: 66px;
+			font-size: 83px;
 			color: #fff;
 			line-height: 1;
 			gap: 40px;
@@ -124,23 +126,26 @@ export default {
 			animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
 		}
 		.title {
-			margin-top: 60px;
-    	margin-left: 50px;
+			font-weight: bold;
+			margin-left: 90px;
+			color: #51267d;
+			font-size: 44px;
+			line-height: 54px;
 		}
 	}
 
 	.topAlert {
 		justify-content: flex-start;
-		margin-left: 110px;
-    margin-top: 80px;
-		font-size: 28px;
+		margin-left: 120px;
+    margin-top: 120px;
+		font-size: 37px;
 	}
 
 	.threeboxes {
-		margin: 60px 80px 0;
-		height: 715px;
+		margin: 80px 100px 0;
+		height: 950px;
 		display: flex;
-		gap: 30px;
+		gap: 40px;
 		
 		> div {
 			flex: 1 0 0%;
@@ -150,28 +155,30 @@ export default {
 			display: flex;
 			flex-direction: column;
 			// align-items: center;
-			padding-left: 40px;
-			padding-top: 60px;
+			padding: 90px 50px;
 			justify-content: space-between;
 			animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
 			
 			&:nth-child(1){
 				animation-delay: .3s;
+				background-color: #08a9b7;
 			}
 			&:nth-child(2){
 				animation-delay: .6s;
+				background-color: #d06578;
 			}
 			&:nth-child(3){
 				animation-delay: .9s;
 			}
 		}
 		.topimg img {
-			width: 520px;
+			// width: 520px;
+			width: 100%;
 		}
 		.title {
 			font-weight: bold;
-			font-size: 27px;
-			line-height: 33px;
+			font-size: 35px;
+			line-height: 43px;
 			color: #fff;
 			// text-align: center;
 			// height: 260px;
@@ -181,14 +188,15 @@ export default {
 			
 		}
 		.botbut {
-			height: 190px;
+			height: 160px;
 			.glob-button {
-				height: 96px;
-				line-height: 1.25;
-				background-color: rgba(81, 38, 125, 0.9);
+				height: 127px;
+				line-height: 1.4;
+				// background-color: rgba(81, 38, 125, 0.9);
+				background-color: transparent;
 				text-align: right;
 				svg {
-					padding: 25px 25px;
+					padding: 25px 35px;
 				}
 			}
 		}

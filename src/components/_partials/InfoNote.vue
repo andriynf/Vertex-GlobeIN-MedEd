@@ -37,21 +37,22 @@
 	
 	.info-icon {
 		position: absolute;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-		left: -25px;
-    width: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -35px;
+    width: 50px;
     border: 6px solid #512c7d;
-		border-radius: 50%;
+    border-radius: 50%;
 	}
 
 	.info-content {
 		background-color: rgba(255, 255, 255, 0.9);
 		font-family: 'SourceSansPro-Semibold';
-		font-size: 18px;
-		padding: 11px 28px;
-		border-radius: 12px;
+		font-size: 23px;
+		line-height: 30px;
+		padding: 20px 40px;
+		border-radius: 15px;
 		position: relative;
 	}
 
