@@ -55,7 +55,9 @@
 
 		</div>
 
-		<qr-code-tip />
+		<qr-code-tip>
+			<img src="/img/codes/GlobeIN_iPad_QR_slide12_website.png" alt="">
+		</qr-code-tip>
     
   </div>
 </template>

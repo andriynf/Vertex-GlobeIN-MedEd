@@ -51,7 +51,7 @@
 		</div>
 
 
-		<qr-code-tip />
+		<!-- <qr-code-tip /> -->
 		
 
   </div>

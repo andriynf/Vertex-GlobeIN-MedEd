@@ -43,7 +43,7 @@
 
 				<div class="boxcol50">
 					<div>Scan the QR code to access the on-demand webinars</div>
-					<img src="/img/qr_webinar.png" width="180" style="margin-left: 40px;" >
+					<img src="/img/codes/GlobeIN_iPad_QR_slide4_webinars.png" width="180" style="margin-left: 40px;" >
 				</div>
 				<div class="boxcol50">
 					<info-red-note>Please contact a Vertex medical representative to find out <br>more about the programme and events</info-red-note>

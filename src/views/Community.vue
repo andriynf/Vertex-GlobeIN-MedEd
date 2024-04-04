@@ -54,7 +54,7 @@
 					<div class="touchbtn animate__animated animate__pulse animate__infinite animate__slow" @click="openWebsitePopup()"><img src="/img/btn_touchtolearn.png"/> </div>
 				</div>
 
-				<info-red-note class="bottomAlert">Please contact Vertex medical representative to find out more about the programme and events</info-red-note>
+				<info-red-note class="bottomAlert">Please contact a Vertex medical representative to find out more about the programme and events</info-red-note>
 
 			</div>
 
@@ -62,7 +62,9 @@
 
 		</div>
 
-		<qr-code-tip />
+		<qr-code-tip>
+			<img src="/img/codes/GlobeIN_iPad_QR_slide11_community.png" alt="">
+		</qr-code-tip>
 
   </div>
 </template>

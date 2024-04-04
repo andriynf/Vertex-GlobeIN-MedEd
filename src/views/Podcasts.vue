@@ -46,7 +46,9 @@
 
 		</div>
 
-		<qr-code-tip />
+		<qr-code-tip>
+			<img src="/img/codes/GlobeIN_iPad_QR_slide7_videos.png" alt="">
+		</qr-code-tip>
     
   </div>
 </template>

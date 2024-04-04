@@ -41,7 +41,9 @@
 		</div>
 
 
-		<qr-code-tip />
+		<qr-code-tip>
+			<img src="/img/codes/GlobeIN_iPad_QR_slide3_globeinteractive.png" alt="">
+		</qr-code-tip>
 
 
   </div>
