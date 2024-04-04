@@ -3,7 +3,7 @@
 		
 		<img class="vertexlogowhite" src="/img/vertex_logo_white.svg" width="322" alt="">
 
-		<div class="centerlogo animate__animated animate__zoomIn">
+		<div class="centerlogo animate__animated animate__fadeIn">
 			<svg class="ellipse" viewBox="0 0 1754.12 1434.19">
 				<ellipse cx="877.06" cy="717.1" rx="928.88" ry="648.2" transform="translate(-231.78 484.84) rotate(-27.44)" style="fill: #ededed; isolation: isolate; opacity: .95;"/>
 			</svg>
