@@ -20,7 +20,7 @@
 							<span>Back</span>
 						</div>
 					</button>
-					<button class="btnNext" @click="onNextClick()">
+					<button v-if="showNextButton" class="btnNext" @click="onNextClick()">
 						<div>
 							<span>Next</span>
 							<svg style="width: 34px; height: 68px;" viewBox="0 0 27.67 53.34">
@@ -52,7 +52,10 @@
 				type: String,
 				default: '#512c7d',
 			},
-			
+			showNextButton: {
+				type: Boolean,
+				default: true,
+			},
 		},
 		data() {
 			return {

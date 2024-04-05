@@ -17,7 +17,7 @@
 						<div class="headline">
 							Dedicated to providing tailored medical education resources for haemoglobinopathies to support you, your patients,
 							<br>and the multidisciplinary care team. Discover a range of resources covering pathophysiology, clinical complications,
-							<br>patient journey, and current and future management of sickle cell disease and β-thalassaemia
+							<br>the patient journey, and current and future management of sickle cell disease and β-thalassaemia
 						</div>
 					</div>
 
@@ -51,7 +51,7 @@
 
 			</div>
 
-			<bottom-menu @onBackClick="onMenuBackClick()" @onNextClick="onMenuNextClick()" />
+			<bottom-menu @onBackClick="onMenuBackClick()" @onNextClick="onMenuNextClick()" :showNextButton=false />
 
 		</div>
 
